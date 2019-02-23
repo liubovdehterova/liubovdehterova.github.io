@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/search_site_home_page.css">
+    <title>Search Site Home Page</title>
+</head>
+<body>
+    <div class="header header--container">
+        <ul class="menu">
+            <li class="menu__list">
+                <a href="#" class="menu__list__link">Reality</a>
+            </li>
+            <li class="menu__list">
+                <a href="#" class="menu__list__link">Living</a>
+            </li>
+            <li class="menu__list menu__list--item">
+                <a href="#" class="menu__list__link">Education </a>
+            </li>
+            <li class="menu__list">
+                <a href="#" class="menu__list__link">Entertainment</a>
+            </li>
+            <li class="menu__list">
+                <a href="#" class="menu__list__link">Mobility</a>
+            </li>
+        </ul>
+        <div class="header__search">
+            <a href="#" class="header__search__link">
+                <svg aria-hidden="true" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-search fa-w-16 fa-2x header__search__link__icon">
+                    <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" class=""></path>
+                </svg>
+            </a>
+        </div>
+        <div class="header__authorization">
+            <a href="#" class="header__authorization__link">
+                <div class="header__authorization__link-icon">
+                    <svg aria-hidden="true" data-prefix="fas" data-icon="user" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-user fa-w-14 fa-2x">
+                        <path fill="currentColor" d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z" class=""></path>
+                    </svg>
+                </div>
+                <span class="header__authorization__link-login">Login</span>
+            </a>                          
+        </div>
+    </div>
+    <div class="form__search">
+        <form action="#" class="form__search-site">
+            <div class="form__search-site__headline">What are you looking for?</div>
+            <div class="form__search-site__goal">
+                <select class="form__search-site__select">
+                      <option value="Dubai">Dubai</option>
+                </select>
+                <select class="form__search-site__select">
+                    <option value="Dubai">Education</option>
+                </select>
+            </div>
+            <input class="form__search-site__information" type="text" name="form__search-site__information" placeholder="Keyword, name, date, ...">
+            <button class="form__search-site__button" type="button">Search</button>
+        </form>
+    </div>
+    <div class="navigation">
+        <div class="navigation__container">
+            <ul class="menu menu__navigation">
+                <li class="menu__list menu__navigation__list">
+                    <a href="#" class="menu__list__link menu__navigation__list__link">Recommended</a>
+                </li>
+                <li class="menu__list menu__navigation__list">
+                    <a href="#" class="menu__list__link menu__navigation__list__link">Latest</a>
+                </li>
+                <li class="menu__list menu__navigation__list">
+                    <a href="#" class="menu__list__link menu__navigation__list__link">Highlights </a>
+                </li>
+            </ul>
+
+            <form action="https://fom.in.ua/echo" class="search-site navigation__search-site">
+                <div class="navigation__search-site--goal">
+                    <select class="navigation__search-site__select">
+                        <option value="Dubai">Dubai</option>
+                    </select>
+                </div>          
+            </form>
+
+            <form action="https://fom.in.ua/echo" class="navigation__map">
+                <input type="text" class="navigation__map__item" value="Hide Map">
+                <div class="navigation__map__select">
+                    <svg aria-hidden="true" data-prefix="fas" data-icon="map-marker-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="svg-inline--fa fa-map-marker-alt fa-w-12 fa-2x">
+                        <path fill="currentColor" d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z" class=""></path>
+                    </svg>
+                </div>             
+            </form>
+            <div class="navigation__filter">
+                <div class="navigation__filter__option">Filter:</div>
+                <div class="navigation__filter__icon">
+                    <a href="#" class="navigation__filter__icon__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="19" viewBox="0 0 24 19">
+                            <g>
+                                <g transform="translate(-898 -469)">
+                                    <image width="24" height="19" transform="translate(898 469)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAATCAYAAACKsM07AAABq0lEQVRIS+2VP08VURDFfyckRsHWjsJSwh9LCxv4DlhpIhqTRwADhR+DQgGDJkYlgUb4DtpY0AIGSxsrWkVDQg6ZzbyXy2OXByUJ09xkd+79zTkze1dcMGyPAV8AAY8k7VxkayT3DNsvgGXgZib/B15K+tBr87kA27eBd8DjPOh9rq1cN4BpSX+aQI0A28PAJjAE/AVakuJAbAcwYAPAflr2ow5SC7A9BbwF+oG9POBneYDte1nACHAIzEr63A05BbB9C1gFnmbiR2BO0r+66jJ/BXie79eAGUkBrKIDyIq2gLCmsaIGUKk4rJqUVCmuALafpKdhyQEwIanW06ZmZs++AneywOjZumwvxcgVGzckBfDSYXu9mLjYvxyAtr/h5StgTVJI7oTtUHaji3hUep1ORJOjf4vRu8oi2/dzDAeBkHgKYPsB8B3o6wIcAw8lbbef224DJoDfMYVlk8cbAKHmE3AEtNXGtIWiZ+VolgBJ37qnqBfgjaSFtOI1MH8NqHqX10b04OpY1PSB1Sloyo2b4MwU3QV2gfgH1EVnJAvb6vLi3zAq6Ve8PAEJEgLSOjTaQAAAAABJRU5ErkJggg=="/>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+                <div class="navigation__filter__icon navigation__filter__icon--personal ">
+                    <a href="#" class="navigation__filter__icon__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="19" viewBox="0 0 16 19">
+                            <g>
+                                <g transform="translate(-951 -469)">
+                                    <image width="16" height="19" transform="translate(951 469)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAATCAYAAACZZ43PAAACIklEQVQ4T4XTP6jQZRTG8c+J/g1BZTkF3kgoLXGoUEgaFFELhbJ/QykWVNCiReHg0hJkibdFh8KEtEHKGgoSiYSCwNKpchCUTGyxIJcoKk488V653i54lvf9ve/vfDnnOc9bZkR3z8cLWIdbx/WP+AS7q+rU9JSa+uju7LfiVVyDCzgx7u/E9fhz3G+vqs7ddMBOvIjzeBkHqioJujvAJ7ADczFZVS9dBHT3I/gQKXV5VWX9X3R3WjoyWnu0qg5Wd1+Jk5iHpVV1vLtvw+tV9fgsGt2DoziDOwJ4CB9jf1VtGCXnbM+APlBVqe5idPc+PIWHA3gbzyI/HhqAV/AGHhz9LpgBWIPP8E4AX+J+rEeEjLBzxhoRb8TZ6QUgAn6ErwL4HndhNTbjyQG4eWiT3MU4h1/xPt7CYfwQwLe4FxPI/hYswt1V9e5o6RkcTwJ+Hv9HxGMBvIeIt2IYaVdVxXWzjTHiPoc38QX2BZDkQI4Nk/yekqvq7xnCXY3vkPWXUcXGAK4bBroJf4wZn8bzVfXXaCFeybTij6W4dugx8Z+Vu3sZFuJrrE0yrhiVpZJo8M+AfIr7Uk1VHZ0CXIXXsAXZJzKRVBBQzibHec4yhW2pMC0E8gHyHn4aoIzo3LQWAsh0ViVxOPQgHgtgE/aOMa2sqt9mm8DUWXffgM+RN/F0AHkYSzL7qsqcLxvdHePFgN8EELueqarbL5t56YPKC574F0cw12nPKAzNAAAAAElFTkSuQmCC"/>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+                <div class="navigation__filter__icon navigation__filter__icon--education">
+                    <a href="#" class="navigation__filter__icon__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29" height="19" viewBox="0 0 29 19">
+                            <g>
+                                <g transform="translate(-994 -469)">
+                                    <image width="29" height="19" transform="translate(994 469)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAATCAYAAABsmQZ/AAACtUlEQVRIS52VW4hXZRTFf8sUFRNvJKI91FMEkUMP6pNFIigJGlOIPWQXwQt5eVFfgi4PPaYWKhJMJCr1MEMggRBYBD4oCEWCCM0QiRTI1IglTTotWcN3hjNn/jP/mdlwOJzv7O9be6+99v7EFMz2o8B24B1gBXAa+FTSjSkcgybjbPsJYC/wNrCgscfABeAo8K2kfE9oE4Lafh7YD2wGZtROugT8AmwF5tTWrwOfhAFJ98ZDHgNqezawrYB11DbeB75KRpKuZt32EmAnsKfQXbn/BXwGHJf0WxN8BNT2MmB3eR6rOd4GTuaR9Eer6G3PAjqBA8Dqms8Q0AMckxR2hk22nwEOF6qyubIfS52+lDTYrk7Vf9sBTUleBWbW9oWdI8C5gA40xHER+EDSD5MFGif7qDsqPwg8UvP5KKDfAS/UFh8AXwMfSvp5OsC2o/BdwCFgcePsjwOauq4v9djYAEnWaYVvJP3fLgDbT5Xs3gTm1fz7iqpfAbpHqdf2F8DrQADqLdKbIQB0SbpbB28EvSE6aQSX1pmfoG1/HxaboMkqIrgGfF4GQgZDZQHsKgH8XgLcBzxd8/kXOAOkxdINdyQttP0kkD7uHQ/0J0kdtpNtBkMCyaAYESnwdzKord0CTgCnJPXbfh94rwYaBsPkaCpsV5kOgzZoXFnqnsGRAVLZ5VL3bknJbthagL5R2Js8aO2wpcAO4PFELimgY2w6oP8A74YuSf+1U23zv+21pe7PAgOSFtkeN9MtZWxVtb6ZGgFnJf06EbjtucDLwFvAuppvj6RO25uA88Bgq4G/KrMSWNMAyZ0ZKvP+s6hzEbAcyJ7ngABX1p/JVtgaKq31GtDX8morDi8V4bzYovcmSjqM5IKIiu+0cmx7idtOJgkgLZMapW+rVola0yrpv7CQy/xKu4v8IUgFCvDBAglhAAAAAElFTkSuQmCC"/>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+                <div class="navigation__filter__icon navigation__filter__icon--vacation">
+                    <a href="#" class="navigation__filter__icon__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="19" viewBox="0 0 19 19">
+                            <g>
+                                <g transform="translate(-1048 -469)">
+                                    <image width="19" height="19" transform="translate(1048 469)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAABuElEQVQ4T7XUzYtOcRjG8c/NmLGRIuQ1GRb2I3kpOwsrRd4pxQZbayv/gLIzslCShS2SlJcV2VjIsJCFhLLwLnPr1m+mx2Mez6T8Nqdzzv37nus657pO+MeVmdtwAJuwrDAxHVZmDmAHdmIDFmNG994pYZlZg/uxC+uwsOvBXzCGm7iAB5jVC3YbWzqe/AlPcAPnIuJ5p6rM/I6BXrD3mIu72BcRLyc2N8vbm+qNnZb7wc7gJHa3zSNY1GX5azsf7AerwcGuzWX5Ka7hfESMZeYzDPeCvcX8Zu0DHuM6Rjstd1j/K6zeVeXnSESM9otPP2UTX3NPRFz+77DM3ItTWI7ZFeJ+OftDWQv0faxvin9gZs86ZWZPm5l5D5WvzziOS6hcDk0qy8yDOI0lrXd17zdlmTmM+nJVp7I3B3ewFI9+wTKzLmxusmtwqGXrRESc7YjA1haRytorrGpzr7E6MvMqqh4l+zCu4A3mYSQiHnb1sHpZkFrfcBFHI2K8YPUCsxJcZcUtrMCLiFg5VSwyc00piohqwuQqWIHG8Q4L2p1qwNqIqOO0V8Hqf3Soef/YZB8r2dOmtMGfAda4ssf3co0AAAAASUVORK5CYII="/>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+                <div class="navigation__filter__icon navigation__filter__icon--tourism">
+                    <a href="#" class="navigation__filter__icon__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="19" viewBox="0 0 18 19">
+                            <g>
+                                <g transform="translate(-1101 -469)">
+                                    <image width="18" height="19" transform="translate(1101 469)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAATCAYAAACdkl3yAAABsklEQVQ4T83UzYuOYRTH8c8ZsiBWkigvCyuESGLhLeWtzGRrZcpKNmz8BTZjg5U0K1sZLxklbwsSCWFlwUiSrIiFcHSe7kczj2eaJyvX5q77nOvb7/zOuU5oTmbOxzHsx2JEO9bxTYzhAoYi4kPFW8mZuRGXMBdv8RifJwHNwVoswifsi4j7kZkL8BwzcRizsG0SSPv3LXzFGXzDygKdbgCDETGcmdewawrQaETszsxBnCtggd7hFw5i7xSAzvBVDKOvQGXeKJbjKH70CJuOk3hZFbRBZfTqiFjSI6SVlplv8LRleKPo/wStwFl877G8GTiEF52lHccOTGsGtTrZ7fSVPfiJGzgxARQR/Zk5G09Q07s+IsrMPyczqxkPm6lfExFfMnOkG6je2OtG0daIuNMB2oLbjaKlETHWFdS0dHspioiL3erKzIFSFBE3m/y/FfVo8oS0TkX/wphwpwZyCJuwAY9Q+2UP3jfrZPyFWh+1La5gIdbhAe6191E/ypNnDaBe/0hElB/ju1Y5lXu5WX6rMBARI23QPJzHZtSgvcKRiLjeAdqJU1jWDO5dHIiIj78BapzR+asngBgAAAAASUVORK5CYII="/>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content col-12">
+        <div class="content__housing col-3">
+            <div class="content__housing__icon">
+                <a href="#" class="content__housing__icon__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="19" viewBox="0 0 24 19">
+                        <g>
+                            <g transform="translate(-898 -469)">
+                                <image width="24" height="19" transform="translate(898 469)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAATCAYAAACKsM07AAABq0lEQVRIS+2VP08VURDFfyckRsHWjsJSwh9LCxv4DlhpIhqTRwADhR+DQgGDJkYlgUb4DtpY0AIGSxsrWkVDQg6ZzbyXy2OXByUJ09xkd+79zTkze1dcMGyPAV8AAY8k7VxkayT3DNsvgGXgZib/B15K+tBr87kA27eBd8DjPOh9rq1cN4BpSX+aQI0A28PAJjAE/AVakuJAbAcwYAPAflr2ow5SC7A9BbwF+oG9POBneYDte1nACHAIzEr63A05BbB9C1gFnmbiR2BO0r+66jJ/BXie79eAGUkBrKIDyIq2gLCmsaIGUKk4rJqUVCmuALafpKdhyQEwIanW06ZmZs++AneywOjZumwvxcgVGzckBfDSYXu9mLjYvxyAtr/h5StgTVJI7oTtUHaji3hUep1ORJOjf4vRu8oi2/dzDAeBkHgKYPsB8B3o6wIcAw8lbbef224DJoDfMYVlk8cbAKHmE3AEtNXGtIWiZ+VolgBJ37qnqBfgjaSFtOI1MH8NqHqX10b04OpY1PSB1Sloyo2b4MwU3QV2gfgH1EVnJAvb6vLi3zAq6Ve8PAEJEgLSOjTaQAAAAABJRU5ErkJggg=="/>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="content__housing__nav">
+                <form action="https://fom.in.ua/echo" class="content__housing__nav__search">
+                    <input type="text" class="content__housing__nav__search__home" value="Show more">
+                    <div class="content__housing__nav__search-arrows">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-search fa-w-16 fa-2x">
+                            <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" class=""></path>
+                        </svg>
+                    </div>             
+                </form>
+                <div class="content__housing__nav__rating">
+                    <div class="review__stars-input">
+                        <input id="star-4" class="star" type="radio" name="reviewStars"/>
+                        <label title="gorgeous" class="star__action" for="star-4"></label>
+
+                        <input id="star-3" class="star" type="radio" name="reviewStars"/>
+                        <label title="good" class="star__action" for="star-3"></label>
+
+                        <input id="star-2" class="star" type="radio" name="reviewStars"/>
+                        <label title="regular" class="star__action" for="star-2"></label>
+
+                        <input id="star-1" class="star" type="radio" name="reviewStars"/>
+                        <label title="poor" class="star__action"for="star-1"></label>
+
+                        <input id="star-0" class="star" type="radio" name="reviewStars"/>
+                        <label title="bad" class="star__action" for="star-0"></label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content__housing__description">2 bedroom house for rent in Dubai</div>
+            <div class="content__housing__name content__housing__name--home">Vision Agency</div>
+            <div class="content__housing__nav__rating content__housing__nav__rating--static">
+                <div class="stars stars--static">
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static-item"></path>
+                        </svg>
+                    </div>                      
+                </div>
+                <span class="content__housing__nav__rating__item">(365)</span>
+            </div>
+        </div>
+        <div class="content__housing content__housing--music col-3">
+            <div class="content__housing__icon content__housing__icon--vacation">
+                <a href="#" class="content__housing__icon__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="19" viewBox="0 0 19 19">
+                        <g>
+                            <g transform="translate(-1048 -469)">
+                                <image width="19" height="19" transform="translate(1048 469)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAABuElEQVQ4T7XUzYtOcRjG8c/NmLGRIuQ1GRb2I3kpOwsrRd4pxQZbayv/gLIzslCShS2SlJcV2VjIsJCFhLLwLnPr1m+mx2Mez6T8Nqdzzv37nus657pO+MeVmdtwAJuwrDAxHVZmDmAHdmIDFmNG994pYZlZg/uxC+uwsOvBXzCGm7iAB5jVC3YbWzqe/AlPcAPnIuJ5p6rM/I6BXrD3mIu72BcRLyc2N8vbm+qNnZb7wc7gJHa3zSNY1GX5azsf7AerwcGuzWX5Ka7hfESMZeYzDPeCvcX8Zu0DHuM6Rjstd1j/K6zeVeXnSESM9otPP2UTX3NPRFz+77DM3ItTWI7ZFeJ+OftDWQv0faxvin9gZs86ZWZPm5l5D5WvzziOS6hcDk0qy8yDOI0lrXd17zdlmTmM+nJVp7I3B3ewFI9+wTKzLmxusmtwqGXrRESc7YjA1haRytorrGpzr7E6MvMqqh4l+zCu4A3mYSQiHnb1sHpZkFrfcBFHI2K8YPUCsxJcZcUtrMCLiFg5VSwyc00piohqwuQqWIHG8Q4L2p1qwNqIqOO0V8Hqf3Soef/YZB8r2dOmtMGfAda4ssf3co0AAAAASUVORK5CYII="/>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="content__housing__nav content__housing__nav--music">
+                <form action="https://fom.in.ua/echo" class="content__housing__nav__search">
+                    <input type="text" class="content__housing__nav__search__home" value="Show more">
+                    <div class="content__housing__nav__search-arrows">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-search fa-w-16 fa-2x">
+                            <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" class=""></path>
+                        </svg>
+                    </div>             
+                </form>
+                <div class="content__housing__nav__rating">
+                    <div class="review__stars-input">
+                        <input id="star-4" class="star" type="radio" name="reviewStars"/>
+                        <label title="gorgeous" class="star__action" for="star-4"></label>
+
+                        <input id="star-3" class="star" type="radio" name="reviewStars"/>
+                        <label title="good" class="star__action" for="star-3"></label>
+
+                        <input id="star-2" class="star" type="radio" name="reviewStars"/>
+                        <label title="regular" class="star__action" for="star-2"></label>
+
+                        <input id="star-1" class="star" type="radio" name="reviewStars"/>
+                        <label title="poor" class="star__action"for="star-1"></label>
+
+                        <input id="star-0" class="star" type="radio" name="reviewStars"/>
+                        <label title="bad" class="star__action" for="star-0"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="content__housing__description">Beach party festival 2014</div>
+            <div class="content__housing__name content__housing__name--music">Long beach</div>
+            <div class="content__housing__nav__rating content__housing__nav__rating--static">
+                <div class="stars stars--static">
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>                      
+                </div>
+                <span class="content__housing__nav__rating__item">(1165)</span>
+            </div>
+        </div>
+        <div class="content__housing content__housing--bus col-3">
+            <div class="content__housing__icon content__housing__icon--tourism">
+                <a href="#" class="content__housing__icon__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="19" viewBox="0 0 18 19">
+                        <g>
+                            <g transform="translate(-1101 -469)">
+                                <image width="18" height="19" transform="translate(1101 469)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAATCAYAAACdkl3yAAABsklEQVQ4T83UzYuOYRTH8c8ZsiBWkigvCyuESGLhLeWtzGRrZcpKNmz8BTZjg5U0K1sZLxklbwsSCWFlwUiSrIiFcHSe7kczj2eaJyvX5q77nOvb7/zOuU5oTmbOxzHsx2JEO9bxTYzhAoYi4kPFW8mZuRGXMBdv8RifJwHNwVoswifsi4j7kZkL8BwzcRizsG0SSPv3LXzFGXzDygKdbgCDETGcmdewawrQaETszsxBnCtggd7hFw5i7xSAzvBVDKOvQGXeKJbjKH70CJuOk3hZFbRBZfTqiFjSI6SVlplv8LRleKPo/wStwFl877G8GTiEF52lHccOTGsGtTrZ7fSVPfiJGzgxARQR/Zk5G09Q07s+IsrMPyczqxkPm6lfExFfMnOkG6je2OtG0daIuNMB2oLbjaKlETHWFdS0dHspioiL3erKzIFSFBE3m/y/FfVo8oS0TkX/wphwpwZyCJuwAY9Q+2UP3jfrZPyFWh+1La5gIdbhAe6191E/ypNnDaBe/0hElB/ju1Y5lXu5WX6rMBARI23QPJzHZtSgvcKRiLjeAdqJU1jWDO5dHIiIj78BapzR+asngBgAAAAASUVORK5CYII="/>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="content__housing__nav content__housing__nav--bus">
+                <form action="https://fom.in.ua/echo" class="content__housing__nav__search">
+                    <input type="text" class="content__housing__nav__search__home" value="Show more">
+                    <div class="content__housing__nav__search-arrows">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-search fa-w-16 fa-2x">
+                            <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" class=""></path>
+                        </svg>
+                    </div>             
+                </form>
+                <div class="content__housing__nav__rating">
+                    <div class="review__stars-input">
+                        <input id="star-4" class="star" type="radio" name="reviewStars"/>
+                        <label title="gorgeous" class="star__action" for="star-4"></label>
+
+                        <input id="star-3" class="star" type="radio" name="reviewStars"/>
+                        <label title="good" class="star__action" for="star-3"></label>
+
+                        <input id="star-2" class="star" type="radio" name="reviewStars"/>
+                        <label title="regular" class="star__action" for="star-2"></label>
+
+                        <input id="star-1" class="star" type="radio" name="reviewStars"/>
+                        <label title="poor" class="star__action"for="star-1"></label>
+
+                        <input id="star-0" class="star" type="radio" name="reviewStars"/>
+                        <label title="bad" class="star__action" for="star-0"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="content__housing__description">Aliquam quis pulvinar purus</div>
+            <div class="content__housing__name content__housing__name--bus">Bus Trans</div>
+            <div class="content__housing__nav__rating content__housing__nav__rating--static">
+                <div class="stars stars--static">
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static-item"></path>
+                        </svg>
+                    </div>                      
+                </div>
+                <span class="content__housing__nav__rating__item">(365)</span>
+            </div>
+        </div>
+        <div class="content__housing content__housing--home-item col-3">
+            <div class="content__housing__icon">
+                <a href="#" class="content__housing__icon__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="19" viewBox="0 0 24 19">
+                        <g>
+                            <g transform="translate(-898 -469)">
+                                <image width="24" height="19" transform="translate(898 469)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAATCAYAAACKsM07AAABq0lEQVRIS+2VP08VURDFfyckRsHWjsJSwh9LCxv4DlhpIhqTRwADhR+DQgGDJkYlgUb4DtpY0AIGSxsrWkVDQg6ZzbyXy2OXByUJ09xkd+79zTkze1dcMGyPAV8AAY8k7VxkayT3DNsvgGXgZib/B15K+tBr87kA27eBd8DjPOh9rq1cN4BpSX+aQI0A28PAJjAE/AVakuJAbAcwYAPAflr2ow5SC7A9BbwF+oG9POBneYDte1nACHAIzEr63A05BbB9C1gFnmbiR2BO0r+66jJ/BXie79eAGUkBrKIDyIq2gLCmsaIGUKk4rJqUVCmuALafpKdhyQEwIanW06ZmZs++AneywOjZumwvxcgVGzckBfDSYXu9mLjYvxyAtr/h5StgTVJI7oTtUHaji3hUep1ORJOjf4vRu8oi2/dzDAeBkHgKYPsB8B3o6wIcAw8lbbef224DJoDfMYVlk8cbAKHmE3AEtNXGtIWiZ+VolgBJ37qnqBfgjaSFtOI1MH8NqHqX10b04OpY1PSB1Sloyo2b4MwU3QV2gfgH1EVnJAvb6vLi3zAq6Ve8PAEJEgLSOjTaQAAAAABJRU5ErkJggg=="/>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="content__housing__nav">
+                <form action="https://fom.in.ua/echo" class="content__housing__nav__search">
+                    <input type="text" class="content__housing__nav__search__home" value="Show more">
+                    <div class="content__housing__nav__search-arrows">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-search fa-w-16 fa-2x">
+                            <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" class=""></path>
+                        </svg>
+                    </div>             
+                </form>
+                <div class="content__housing__nav__rating">
+                    <div class="review__stars-input">
+                        <input id="star-4" class="star" type="radio" name="reviewStars"/>
+                        <label title="gorgeous" class="star__action" for="star-4"></label>
+
+                        <input id="star-3" class="star" type="radio" name="reviewStars"/>
+                        <label title="good" class="star__action" for="star-3"></label>
+
+                        <input id="star-2" class="star" type="radio" name="reviewStars"/>
+                        <label title="regular" class="star__action" for="star-2"></label>
+
+                        <input id="star-1" class="star" type="radio" name="reviewStars"/>
+                        <label title="poor" class="star__action"for="star-1"></label>
+
+                        <input id="star-0" class="star" type="radio" name="reviewStars"/>
+                        <label title="bad" class="star__action" for="star-0"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="content__housing__description">4 bedroom house for rent in Dubai</div>
+            <div class="content__housing__name content__housing__name--home">Reality Agency</div>
+            <div class="content__housing__nav__rating content__housing__nav__rating--static">
+                <div class="stars stars--static">
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static-item"></path>
+                        </svg>
+                    </div>                      
+                </div>
+                <span class="content__housing__nav__rating__item">(165)</span>
+            </div>
+        </div>
+    </div>
+    <div class="content__description col-12">
+        <div class="content__description__housing col-6">
+            <div class="content__housing__icon content__description__housing--icon">
+                <a href="#" class="content__housing__icon__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="19" viewBox="0 0 24 19">
+                        <g>
+                            <g transform="translate(-898 -469)">
+                                <image width="24" height="19" transform="translate(898 469)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAATCAYAAACKsM07AAABq0lEQVRIS+2VP08VURDFfyckRsHWjsJSwh9LCxv4DlhpIhqTRwADhR+DQgGDJkYlgUb4DtpY0AIGSxsrWkVDQg6ZzbyXy2OXByUJ09xkd+79zTkze1dcMGyPAV8AAY8k7VxkayT3DNsvgGXgZib/B15K+tBr87kA27eBd8DjPOh9rq1cN4BpSX+aQI0A28PAJjAE/AVakuJAbAcwYAPAflr2ow5SC7A9BbwF+oG9POBneYDte1nACHAIzEr63A05BbB9C1gFnmbiR2BO0r+66jJ/BXie79eAGUkBrKIDyIq2gLCmsaIGUKk4rJqUVCmuALafpKdhyQEwIanW06ZmZs++AneywOjZumwvxcgVGzckBfDSYXu9mLjYvxyAtr/h5StgTVJI7oTtUHaji3hUep1ORJOjf4vRu8oi2/dzDAeBkHgKYPsB8B3o6wIcAw8lbbef224DJoDfMYVlk8cbAKHmE3AEtNXGtIWiZ+VolgBJ37qnqBfgjaSFtOI1MH8NqHqX10b04OpY1PSB1Sloyo2b4MwU3QV2gfgH1EVnJAvb6vLi3zAq6Ve8PAEJEgLSOjTaQAAAAABJRU5ErkJggg=="></image>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="content__description__housing__appraisal">
+                <div class="content__description__housing__name">Vision agency</div>
+                <div class="content__housing__nav__rating content__housing__nav__rating--strong content__housing__nav__rating--static">
+                    <div class="review__stars-input">
+                        <input id="star-4" class="star" type="radio" name="reviewStars"/>
+                        <label title="gorgeous" class="star__action" for="star-4"></label>
+
+                        <input id="star-3" class="star" type="radio" name="reviewStars"/>
+                        <label title="good" class="star__action" for="star-3"></label>
+
+                        <input id="star-2" class="star" type="radio" name="reviewStars"/>
+                        <label title="regular" class="star__action" for="star-2"></label>
+
+                        <input id="star-1" class="star" type="radio" name="reviewStars"/>
+                        <label title="poor" class="star__action"for="star-1"></label>
+
+                        <input id="star-0" class="star" type="radio" name="reviewStars"/>
+                        <label title="bad" class="star__action" for="star-0"></label>
+                    </div>
+                    <span class="content__housing__nav__rating__item content__housing__nav__rating__item--appraisal">(365)</span>
+                </div>
+            </div>
+            <div class="content__housing__nav__rating content__description__housing--static">
+                <div class="stars stars--static content__description__housing--stars">
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static-item"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static-item"></path>
+                        </svg>
+                    </div>                      
+                </div>
+            </div>
+            <div class="content__description__housing__comments">
+                <div class="user__neme">Lucy-P</div>
+                <div class="user__comments">“Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim faucibus, quis posuere orci ornare. Duis mattis sagittis fringilla.” 
+                    <a href="#" class="user__comments__link">...read more</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content__description__housing content__description__housing--entertainment col-6">
+            <div class="content__housing__icon content__description__housing--icon-item">
+                <a href="#" class="content__housing__icon__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="19" viewBox="0 0 24 19">
+                        <g>
+                            <g transform="translate(-898 -469)">
+                                <image width="24" height="19" transform="translate(898 469)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAATCAYAAACKsM07AAABq0lEQVRIS+2VP08VURDFfyckRsHWjsJSwh9LCxv4DlhpIhqTRwADhR+DQgGDJkYlgUb4DtpY0AIGSxsrWkVDQg6ZzbyXy2OXByUJ09xkd+79zTkze1dcMGyPAV8AAY8k7VxkayT3DNsvgGXgZib/B15K+tBr87kA27eBd8DjPOh9rq1cN4BpSX+aQI0A28PAJjAE/AVakuJAbAcwYAPAflr2ow5SC7A9BbwF+oG9POBneYDte1nACHAIzEr63A05BbB9C1gFnmbiR2BO0r+66jJ/BXie79eAGUkBrKIDyIq2gLCmsaIGUKk4rJqUVCmuALafpKdhyQEwIanW06ZmZs++AneywOjZumwvxcgVGzckBfDSYXu9mLjYvxyAtr/h5StgTVJI7oTtUHaji3hUep1ORJOjf4vRu8oi2/dzDAeBkHgKYPsB8B3o6wIcAw8lbbef224DJoDfMYVlk8cbAKHmE3AEtNXGtIWiZ+VolgBJ37qnqBfgjaSFtOI1MH8NqHqX10b04OpY1PSB1Sloyo2b4MwU3QV2gfgH1EVnJAvb6vLi3zAq6Ve8PAEJEgLSOjTaQAAAAABJRU5ErkJggg=="></image>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="content__description__housing__appraisal">
+                <div class="content__description__housing__name">Skybox club</div>
+                <div class="content__housing__nav__rating content__housing__nav__rating--strong content__housing__nav__rating--static">
+                    <div class="review__stars-input">
+                        <input id="star-4" class="star" type="radio" name="reviewStars"/>
+                        <label title="gorgeous" class="star__action" for="star-4"></label>
+
+                        <input id="star-3" class="star" type="radio" name="reviewStars"/>
+                        <label title="good" class="star__action" for="star-3"></label>
+
+                        <input id="star-2" class="star" type="radio" name="reviewStars"/>
+                        <label title="regular" class="star__action" for="star-2"></label>
+
+                        <input id="star-1" class="star" type="radio" name="reviewStars"/>
+                        <label title="poor" class="star__action"for="star-1"></label>
+
+                        <input id="star-0" class="star" type="radio" name="reviewStars"/>
+                        <label title="bad" class="star__action" for="star-0"></label>
+                    </div>
+                    <span class="content__housing__nav__rating__item content__housing__nav__rating__item--appraisal">(1365)</span>
+                </div>
+            </div>
+            
+            <div class="content__housing__nav__rating content__description__housing--static">
+                <div class="stars stars--static content__description__housing--stars">
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>                      
+                </div>
+            </div>
+            <div class="content__description__housing__comments content__description__housing__comments--item">
+                <div class="user__neme">Peter145</div>
+                <div class="user__comments">“Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim faucibus, quis posuere orci ornare. Duis mattis sagittis fringilla.” 
+                    <a href="#" class="user__comments__link">...read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content col-12">
+        <div class="content__housing col-3">
+            <div class="content__housing__icon">
+                <a href="#" class="content__housing__icon__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="19" viewBox="0 0 24 19">
+                        <g>
+                            <g transform="translate(-898 -469)">
+                                <image width="24" height="19" transform="translate(898 469)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAATCAYAAACKsM07AAABq0lEQVRIS+2VP08VURDFfyckRsHWjsJSwh9LCxv4DlhpIhqTRwADhR+DQgGDJkYlgUb4DtpY0AIGSxsrWkVDQg6ZzbyXy2OXByUJ09xkd+79zTkze1dcMGyPAV8AAY8k7VxkayT3DNsvgGXgZib/B15K+tBr87kA27eBd8DjPOh9rq1cN4BpSX+aQI0A28PAJjAE/AVakuJAbAcwYAPAflr2ow5SC7A9BbwF+oG9POBneYDte1nACHAIzEr63A05BbB9C1gFnmbiR2BO0r+66jJ/BXie79eAGUkBrKIDyIq2gLCmsaIGUKk4rJqUVCmuALafpKdhyQEwIanW06ZmZs++AneywOjZumwvxcgVGzckBfDSYXu9mLjYvxyAtr/h5StgTVJI7oTtUHaji3hUep1ORJOjf4vRu8oi2/dzDAeBkHgKYPsB8B3o6wIcAw8lbbef224DJoDfMYVlk8cbAKHmE3AEtNXGtIWiZ+VolgBJ37qnqBfgjaSFtOI1MH8NqHqX10b04OpY1PSB1Sloyo2b4MwU3QV2gfgH1EVnJAvb6vLi3zAq6Ve8PAEJEgLSOjTaQAAAAABJRU5ErkJggg=="/>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="content__housing__nav">
+                <form action="https://fom.in.ua/echo" class="content__housing__nav__search">
+                    <input type="text" class="content__housing__nav__search__home" value="Show more">
+                    <div class="content__housing__nav__search-arrows">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-search fa-w-16 fa-2x">
+                            <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" class=""></path>
+                        </svg>
+                    </div>             
+                </form>
+                <div class="content__housing__nav__rating">
+                    <div class="review__stars-input">
+                        <input id="star-4" class="star" type="radio" name="reviewStars"/>
+                        <label title="gorgeous" class="star__action" for="star-4"></label>
+
+                        <input id="star-3" class="star" type="radio" name="reviewStars"/>
+                        <label title="good" class="star__action" for="star-3"></label>
+
+                        <input id="star-2" class="star" type="radio" name="reviewStars"/>
+                        <label title="regular" class="star__action" for="star-2"></label>
+
+                        <input id="star-1" class="star" type="radio" name="reviewStars"/>
+                        <label title="poor" class="star__action"for="star-1"></label>
+
+                        <input id="star-0" class="star" type="radio" name="reviewStars"/>
+                        <label title="bad" class="star__action" for="star-0"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="content__housing__description">2 bedroom house for rent in Dubai</div>
+            <div class="content__housing__name content__housing__name--home">Vision Agency</div>
+            <div class="content__housing__nav__rating content__housing__nav__rating--static">
+                <div class="stars stars--static">
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static-item"></path>
+                        </svg>
+                    </div>                      
+                </div>
+                <span class="content__housing__nav__rating__item">(365)</span>
+            </div>
+        </div>
+        <div class="content__housing content__housing--music col-3">
+            <div class="content__housing__icon content__housing__icon--vacation">
+                <a href="#" class="content__housing__icon__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="19" viewBox="0 0 19 19">
+                        <g>
+                            <g transform="translate(-1048 -469)">
+                                <image width="19" height="19" transform="translate(1048 469)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAABuElEQVQ4T7XUzYtOcRjG8c/NmLGRIuQ1GRb2I3kpOwsrRd4pxQZbayv/gLIzslCShS2SlJcV2VjIsJCFhLLwLnPr1m+mx2Mez6T8Nqdzzv37nus657pO+MeVmdtwAJuwrDAxHVZmDmAHdmIDFmNG994pYZlZg/uxC+uwsOvBXzCGm7iAB5jVC3YbWzqe/AlPcAPnIuJ5p6rM/I6BXrD3mIu72BcRLyc2N8vbm+qNnZb7wc7gJHa3zSNY1GX5azsf7AerwcGuzWX5Ka7hfESMZeYzDPeCvcX8Zu0DHuM6Rjstd1j/K6zeVeXnSESM9otPP2UTX3NPRFz+77DM3ItTWI7ZFeJ+OftDWQv0faxvin9gZs86ZWZPm5l5D5WvzziOS6hcDk0qy8yDOI0lrXd17zdlmTmM+nJVp7I3B3ewFI9+wTKzLmxusmtwqGXrRESc7YjA1haRytorrGpzr7E6MvMqqh4l+zCu4A3mYSQiHnb1sHpZkFrfcBFHI2K8YPUCsxJcZcUtrMCLiFg5VSwyc00piohqwuQqWIHG8Q4L2p1qwNqIqOO0V8Hqf3Soef/YZB8r2dOmtMGfAda4ssf3co0AAAAASUVORK5CYII="/>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="content__housing__nav content__housing__nav--music">
+                <form action="https://fom.in.ua/echo" class="content__housing__nav__search">
+                    <input type="text" class="content__housing__nav__search__home" value="Show more">
+                    <div class="content__housing__nav__search-arrows">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-search fa-w-16 fa-2x">
+                            <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" class=""></path>
+                        </svg>
+                    </div>             
+                </form>
+                <div class="content__housing__nav__rating">
+                    <div class="review__stars-input">
+                        <input id="star-4" class="star" type="radio" name="reviewStars"/>
+                        <label title="gorgeous" class="star__action" for="star-4"></label>
+
+                        <input id="star-3" class="star" type="radio" name="reviewStars"/>
+                        <label title="good" class="star__action" for="star-3"></label>
+
+                        <input id="star-2" class="star" type="radio" name="reviewStars"/>
+                        <label title="regular" class="star__action" for="star-2"></label>
+
+                        <input id="star-1" class="star" type="radio" name="reviewStars"/>
+                        <label title="poor" class="star__action"for="star-1"></label>
+
+                        <input id="star-0" class="star" type="radio" name="reviewStars"/>
+                        <label title="bad" class="star__action" for="star-0"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="content__housing__description">Beach party festival 2014</div>
+            <div class="content__housing__name content__housing__name--music">Long beach</div>
+            <div class="content__housing__nav__rating content__housing__nav__rating--static">
+                <div class="stars stars--static">
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>                      
+                </div>
+                <span class="content__housing__nav__rating__item">(1165)</span>
+            </div>
+        </div>
+        <div class="content__housing content__housing--bus col-3">
+            <div class="content__housing__icon content__housing__icon--tourism">
+                <a href="#" class="content__housing__icon__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="19" viewBox="0 0 18 19">
+                        <g>
+                            <g transform="translate(-1101 -469)">
+                                <image width="18" height="19" transform="translate(1101 469)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAATCAYAAACdkl3yAAABsklEQVQ4T83UzYuOYRTH8c8ZsiBWkigvCyuESGLhLeWtzGRrZcpKNmz8BTZjg5U0K1sZLxklbwsSCWFlwUiSrIiFcHSe7kczj2eaJyvX5q77nOvb7/zOuU5oTmbOxzHsx2JEO9bxTYzhAoYi4kPFW8mZuRGXMBdv8RifJwHNwVoswifsi4j7kZkL8BwzcRizsG0SSPv3LXzFGXzDygKdbgCDETGcmdewawrQaETszsxBnCtggd7hFw5i7xSAzvBVDKOvQGXeKJbjKH70CJuOk3hZFbRBZfTqiFjSI6SVlplv8LRleKPo/wStwFl877G8GTiEF52lHccOTGsGtTrZ7fSVPfiJGzgxARQR/Zk5G09Q07s+IsrMPyczqxkPm6lfExFfMnOkG6je2OtG0daIuNMB2oLbjaKlETHWFdS0dHspioiL3erKzIFSFBE3m/y/FfVo8oS0TkX/wphwpwZyCJuwAY9Q+2UP3jfrZPyFWh+1La5gIdbhAe6191E/ypNnDaBe/0hElB/ju1Y5lXu5WX6rMBARI23QPJzHZtSgvcKRiLjeAdqJU1jWDO5dHIiIj78BapzR+asngBgAAAAASUVORK5CYII="/>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="content__housing__nav content__housing__nav--bus">
+                <form action="https://fom.in.ua/echo" class="content__housing__nav__search">
+                    <input type="text" class="content__housing__nav__search__home" value="Show more">
+                    <div class="content__housing__nav__search-arrows">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-search fa-w-16 fa-2x">
+                            <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" class=""></path>
+                        </svg>
+                    </div>             
+                </form>
+                <div class="content__housing__nav__rating">
+                    <div class="review__stars-input">
+                        <input id="star-4" class="star" type="radio" name="reviewStars"/>
+                        <label title="gorgeous" class="star__action" for="star-4"></label>
+
+                        <input id="star-3" class="star" type="radio" name="reviewStars"/>
+                        <label title="good" class="star__action" for="star-3"></label>
+
+                        <input id="star-2" class="star" type="radio" name="reviewStars"/>
+                        <label title="regular" class="star__action" for="star-2"></label>
+
+                        <input id="star-1" class="star" type="radio" name="reviewStars"/>
+                        <label title="poor" class="star__action"for="star-1"></label>
+
+                        <input id="star-0" class="star" type="radio" name="reviewStars"/>
+                        <label title="bad" class="star__action" for="star-0"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="content__housing__description">Aliquam quis pulvinar purus</div>
+            <div class="content__housing__name content__housing__name--bus">Bus Trans</div>
+            <div class="content__housing__nav__rating content__housing__nav__rating--static">
+                <div class="stars stars--static">
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static-item"></path>
+                        </svg>
+                    </div>                      
+                </div>
+                <span class="content__housing__nav__rating__item">(365)</span>
+            </div>
+        </div>
+        <div class="content__housing content__housing--home-item col-3">
+            <div class="content__housing__icon">
+                <a href="#" class="content__housing__icon__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="19" viewBox="0 0 24 19">
+                        <g>
+                            <g transform="translate(-898 -469)">
+                                <image width="24" height="19" transform="translate(898 469)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAATCAYAAACKsM07AAABq0lEQVRIS+2VP08VURDFfyckRsHWjsJSwh9LCxv4DlhpIhqTRwADhR+DQgGDJkYlgUb4DtpY0AIGSxsrWkVDQg6ZzbyXy2OXByUJ09xkd+79zTkze1dcMGyPAV8AAY8k7VxkayT3DNsvgGXgZib/B15K+tBr87kA27eBd8DjPOh9rq1cN4BpSX+aQI0A28PAJjAE/AVakuJAbAcwYAPAflr2ow5SC7A9BbwF+oG9POBneYDte1nACHAIzEr63A05BbB9C1gFnmbiR2BO0r+66jJ/BXie79eAGUkBrKIDyIq2gLCmsaIGUKk4rJqUVCmuALafpKdhyQEwIanW06ZmZs++AneywOjZumwvxcgVGzckBfDSYXu9mLjYvxyAtr/h5StgTVJI7oTtUHaji3hUep1ORJOjf4vRu8oi2/dzDAeBkHgKYPsB8B3o6wIcAw8lbbef224DJoDfMYVlk8cbAKHmE3AEtNXGtIWiZ+VolgBJ37qnqBfgjaSFtOI1MH8NqHqX10b04OpY1PSB1Sloyo2b4MwU3QV2gfgH1EVnJAvb6vLi3zAq6Ve8PAEJEgLSOjTaQAAAAABJRU5ErkJggg=="/>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="content__housing__nav">
+                <form action="https://fom.in.ua/echo" class="content__housing__nav__search">
+                    <input type="text" class="content__housing__nav__search__home" value="Show more">
+                    <div class="content__housing__nav__search-arrows">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-search fa-w-16 fa-2x">
+                            <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" class=""></path>
+                        </svg>
+                    </div>             
+                </form>
+                <div class="content__housing__nav__rating">
+                    <div class="review__stars-input">
+                        <input id="star-4" class="star" type="radio" name="reviewStars"/>
+                        <label title="gorgeous" class="star__action" for="star-4"></label>
+
+                        <input id="star-3" class="star" type="radio" name="reviewStars"/>
+                        <label title="good" class="star__action" for="star-3"></label>
+
+                        <input id="star-2" class="star" type="radio" name="reviewStars"/>
+                        <label title="regular" class="star__action" for="star-2"></label>
+
+                        <input id="star-1" class="star" type="radio" name="reviewStars"/>
+                        <label title="poor" class="star__action"for="star-1"></label>
+
+                        <input id="star-0" class="star" type="radio" name="reviewStars"/>
+                        <label title="bad" class="star__action" for="star-0"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="content__housing__description">4 bedroom house for rent in Dubai</div>
+            <div class="content__housing__name content__housing__name--home">Reality Agency</div>
+            <div class="content__housing__nav__rating content__housing__nav__rating--static">
+                <div class="stars stars--static">
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static-item"></path>
+                        </svg>
+                    </div>                      
+                </div>
+                <span class="content__housing__nav__rating__item">(165)</span>
+            </div>
+        </div>
+    </div>
+    <div class="content col-12">
+        <div class="content__description__housing content__description__housing--entertainment col-6">
+            <div class="content__housing__icon content__description__housing--icon-item">
+                <a href="#" class="content__housing__icon__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="19" viewBox="0 0 24 19">
+                        <g>
+                            <g transform="translate(-898 -469)">
+                                <image width="24" height="19" transform="translate(898 469)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAATCAYAAACKsM07AAABq0lEQVRIS+2VP08VURDFfyckRsHWjsJSwh9LCxv4DlhpIhqTRwADhR+DQgGDJkYlgUb4DtpY0AIGSxsrWkVDQg6ZzbyXy2OXByUJ09xkd+79zTkze1dcMGyPAV8AAY8k7VxkayT3DNsvgGXgZib/B15K+tBr87kA27eBd8DjPOh9rq1cN4BpSX+aQI0A28PAJjAE/AVakuJAbAcwYAPAflr2ow5SC7A9BbwF+oG9POBneYDte1nACHAIzEr63A05BbB9C1gFnmbiR2BO0r+66jJ/BXie79eAGUkBrKIDyIq2gLCmsaIGUKk4rJqUVCmuALafpKdhyQEwIanW06ZmZs++AneywOjZumwvxcgVGzckBfDSYXu9mLjYvxyAtr/h5StgTVJI7oTtUHaji3hUep1ORJOjf4vRu8oi2/dzDAeBkHgKYPsB8B3o6wIcAw8lbbef224DJoDfMYVlk8cbAKHmE3AEtNXGtIWiZ+VolgBJ37qnqBfgjaSFtOI1MH8NqHqX10b04OpY1PSB1Sloyo2b4MwU3QV2gfgH1EVnJAvb6vLi3zAq6Ve8PAEJEgLSOjTaQAAAAABJRU5ErkJggg=="></image>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="content__description__housing__appraisal">
+                <div class="content__description__housing__name">Skybox club</div>
+                <div class="content__housing__nav__rating content__housing__nav__rating--static content__housing__nav__rating--strong">
+                    <div class="review__stars-input">
+                        <input id="star-4" class="star" type="radio" name="reviewStars"/>
+                        <label title="gorgeous" class="star__action" for="star-4"></label>
+
+                        <input id="star-3" class="star" type="radio" name="reviewStars"/>
+                        <label title="good" class="star__action" for="star-3"></label>
+
+                        <input id="star-2" class="star" type="radio" name="reviewStars"/>
+                        <label title="regular" class="star__action" for="star-2"></label>
+
+                        <input id="star-1" class="star" type="radio" name="reviewStars"/>
+                        <label title="poor" class="star__action"for="star-1"></label>
+
+                        <input id="star-0" class="star" type="radio" name="reviewStars"/>
+                        <label title="bad" class="star__action" for="star-0"></label>
+                    </div>
+                    <span class="content__housing__nav__rating__item content__housing__nav__rating__item--appraisal">(1365)</span>
+                </div>
+            </div>
+            
+            <div class="content__housing__nav__rating content__description__housing--static">
+                <div class="stars stars--static content__description__housing--stars">
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>                      
+                </div>
+            </div>
+            <div class="content__description__housing__comments content__description__housing__comments--item">
+                <div class="user__neme">Peter145</div>
+                <div class="user__comments">“Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim faucibus, quis posuere orci ornare. Duis mattis sagittis fringilla.” 
+                    <a href="#" class="user__comments__link">...read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="content__housing content__housing--media col-3">
+            <div class="content__housing__icon">
+                <a href="#" class="content__housing__icon__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="19" viewBox="0 0 24 19">
+                        <g>
+                            <g transform="translate(-898 -469)">
+                                <image width="24" height="19" transform="translate(898 469)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAATCAYAAACKsM07AAABq0lEQVRIS+2VP08VURDFfyckRsHWjsJSwh9LCxv4DlhpIhqTRwADhR+DQgGDJkYlgUb4DtpY0AIGSxsrWkVDQg6ZzbyXy2OXByUJ09xkd+79zTkze1dcMGyPAV8AAY8k7VxkayT3DNsvgGXgZib/B15K+tBr87kA27eBd8DjPOh9rq1cN4BpSX+aQI0A28PAJjAE/AVakuJAbAcwYAPAflr2ow5SC7A9BbwF+oG9POBneYDte1nACHAIzEr63A05BbB9C1gFnmbiR2BO0r+66jJ/BXie79eAGUkBrKIDyIq2gLCmsaIGUKk4rJqUVCmuALafpKdhyQEwIanW06ZmZs++AneywOjZumwvxcgVGzckBfDSYXu9mLjYvxyAtr/h5StgTVJI7oTtUHaji3hUep1ORJOjf4vRu8oi2/dzDAeBkHgKYPsB8B3o6wIcAw8lbbef224DJoDfMYVlk8cbAKHmE3AEtNXGtIWiZ+VolgBJ37qnqBfgjaSFtOI1MH8NqHqX10b04OpY1PSB1Sloyo2b4MwU3QV2gfgH1EVnJAvb6vLi3zAq6Ve8PAEJEgLSOjTaQAAAAABJRU5ErkJggg=="/>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="content__housing__nav">
+                <form action="https://fom.in.ua/echo" class="content__housing__nav__search">
+                    <input type="text" class="content__housing__nav__search__home" value="Show more">
+                    <div class="content__housing__nav__search-arrows">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-search fa-w-16 fa-2x">
+                            <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" class=""></path>
+                        </svg>
+                    </div>             
+                </form>
+                <div class="content__housing__nav__rating">
+                    <div class="review__stars-input">
+                        <input id="star-4" class="star" type="radio" name="reviewStars"/>
+                        <label title="gorgeous" class="star__action" for="star-4"></label>
+
+                        <input id="star-3" class="star" type="radio" name="reviewStars"/>
+                        <label title="good" class="star__action" for="star-3"></label>
+
+                        <input id="star-2" class="star" type="radio" name="reviewStars"/>
+                        <label title="regular" class="star__action" for="star-2"></label>
+
+                        <input id="star-1" class="star" type="radio" name="reviewStars"/>
+                        <label title="poor" class="star__action"for="star-1"></label>
+
+                        <input id="star-0" class="star" type="radio" name="reviewStars"/>
+                        <label title="bad" class="star__action" for="star-0"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="content__housing__description">2 bedroom house for rent in Dubai</div>
+            <div class="content__housing__name content__housing__name--inner content__housing__name--home">Vision Agency</div>
+            <div class="content__housing__nav__rating content__housing__nav__rating--static">
+                <div class="stars stars--static">
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static-item"></path>
+                        </svg>
+                    </div>                      
+                </div>
+                <span class="content__housing__nav__rating__item">(365)</span>
+            </div>
+        </div>
+        <div class="content__housing content__housing--music col-3">
+            <div class="content__housing__icon content__housing__icon--vacation">
+                <a href="#" class="content__housing__icon__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="19" viewBox="0 0 19 19">
+                        <g>
+                            <g transform="translate(-1048 -469)">
+                                <image width="19" height="19" transform="translate(1048 469)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAABuElEQVQ4T7XUzYtOcRjG8c/NmLGRIuQ1GRb2I3kpOwsrRd4pxQZbayv/gLIzslCShS2SlJcV2VjIsJCFhLLwLnPr1m+mx2Mez6T8Nqdzzv37nus657pO+MeVmdtwAJuwrDAxHVZmDmAHdmIDFmNG994pYZlZg/uxC+uwsOvBXzCGm7iAB5jVC3YbWzqe/AlPcAPnIuJ5p6rM/I6BXrD3mIu72BcRLyc2N8vbm+qNnZb7wc7gJHa3zSNY1GX5azsf7AerwcGuzWX5Ka7hfESMZeYzDPeCvcX8Zu0DHuM6Rjstd1j/K6zeVeXnSESM9otPP2UTX3NPRFz+77DM3ItTWI7ZFeJ+OftDWQv0faxvin9gZs86ZWZPm5l5D5WvzziOS6hcDk0qy8yDOI0lrXd17zdlmTmM+nJVp7I3B3ewFI9+wTKzLmxusmtwqGXrRESc7YjA1haRytorrGpzr7E6MvMqqh4l+zCu4A3mYSQiHnb1sHpZkFrfcBFHI2K8YPUCsxJcZcUtrMCLiFg5VSwyc00piohqwuQqWIHG8Q4L2p1qwNqIqOO0V8Hqf3Soef/YZB8r2dOmtMGfAda4ssf3co0AAAAASUVORK5CYII="/>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="content__housing__nav content__housing__nav--music">
+                <form action="https://fom.in.ua/echo" class="content__housing__nav__search">
+                    <input type="text" class="content__housing__nav__search__home" value="Show more">
+                    <div class="content__housing__nav__search-arrows">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-search fa-w-16 fa-2x">
+                            <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" class=""></path>
+                        </svg>
+                    </div>             
+                </form>
+                <div class="content__housing__nav__rating">
+                    <div class="review__stars-input">
+                        <input id="star-4" class="star" type="radio" name="reviewStars"/>
+                        <label title="gorgeous" class="star__action" for="star-4"></label>
+
+                        <input id="star-3" class="star" type="radio" name="reviewStars"/>
+                        <label title="good" class="star__action" for="star-3"></label>
+
+                        <input id="star-2" class="star" type="radio" name="reviewStars"/>
+                        <label title="regular" class="star__action" for="star-2"></label>
+
+                        <input id="star-1" class="star" type="radio" name="reviewStars"/>
+                        <label title="poor" class="star__action"for="star-1"></label>
+
+                        <input id="star-0" class="star" type="radio" name="reviewStars"/>
+                        <label title="bad" class="star__action" for="star-0"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="content__housing__description">Beach party festival 2014</div>
+            <div class="content__housing__name content__housing__name--inner content__housing__name--music">Long beach</div>
+            <div class="content__housing__nav__rating content__housing__nav__rating--static">
+                <div class="stars stars--static">
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>
+                    <div class="stars__action">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18 fa-2x">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class="stars__action__item stars__action__item--static"></path>
+                        </svg>
+                    </div>                      
+                </div>
+                <span class="content__housing__nav__rating__item">(1165)</span>
+            </div>
+        </div>
+    </div>
+    <div class="next">
+        <a href="#" class="next-item">Load more</a>
+        <div class="next__arrow">
+            <svg aria-hidden="true" data-prefix="fas" data-icon="long-arrow-alt-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-long-arrow-alt-right fa-w-14 fa-2x">
+                <path fill="currentColor" d="M313.941 216H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12h301.941v46.059c0 21.382 25.851 32.09 40.971 16.971l86.059-86.059c9.373-9.373 9.373-24.569 0-33.941l-86.059-86.059c-15.119-15.119-40.971-4.411-40.971 16.971V216z" class=""></path>
+            </svg>
+        </div>
+    </div>
+
+    <div class="description">
+        <h2 class="description__headline">What can DuHoot offer to you?</h2>
+        <div class="description__subline">Etiam cursus ipsum quis enim faucibus</div>
+        <div class="description__icon">
+            <div class="description__icon__filter">
+                <a href="" class="description__icon__filter__link"></a>
+            </div>
+            <div class="description__icon__filter">
+                <a href="" class="description__icon__filter__link description__icon__filter__link--personal"></a>
+            </div>
+            <div class="description__icon__filter">
+                <a href="" class="description__icon__filter__link description__icon__filter__link--education"></a>
+            </div>
+            <div class="description__icon__filter">
+                <a href="" class="description__icon__filter__link description__icon__filter__link--holiday"></a>
+            </div>
+            <div class="description__icon__filter">
+                <a href="" class="description__icon__filter__link description__icon__filter__link--bus"></a>
+            </div>
+        </div>
+        <div class="description__item">
+            <div class="description__item__headline">Reality</div>
+            <div class="description__item__column">
+                <div class="description__item__column-info">
+                    <div class="description__item__column-info__icon">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="bolt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-bolt fa-w-10 fa-2x description__item__column-info__icon__decor">
+                            <path fill="currentColor" d="M295.973 160H180.572L215.19 30.184C219.25 14.956 207.756 0 192 0H56C43.971 0 33.8 8.905 32.211 20.828l-31.996 240C-1.704 275.217 9.504 288 24.004 288h118.701L96.646 482.466C93.05 497.649 104.659 512 119.992 512c8.35 0 16.376-4.374 20.778-11.978l175.973-303.997c9.244-15.967-2.288-36.025-20.77-36.025z" class=""></path>
+                        </svg>
+                    </div>
+                    
+                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                    Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. 
+                    In hendrerit, massa at.
+                </div>
+                <div class="description__item__column-info  description__item__column-info--inner">
+                    <div class="description__item__column-info__icon">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="leaf" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-leaf fa-w-18 fa-2x description__item__column-info__icon__decor-item">
+                            <path fill="currentColor" d="M546.2 9.7c-5.6-12.5-21.6-13-28.3-1.2C486.9 62.4 431.4 96 368 96h-80C182 96 96 182 96 288c0 7 .8 13.7 1.5 20.5C161.3 262.8 253.4 224 384 224c8.8 0 16 7.2 16 16s-7.2 16-16 16C132.6 256 26 410.1 2.4 468c-6.6 16.3 1.2 34.9 17.5 41.6 16.4 6.8 35-1.1 41.8-17.3 1.5-3.6 20.9-47.9 71.9-90.6 32.4 43.9 94 85.8 174.9 77.2C465.5 467.5 576 326.7 576 154.3c0-50.2-10.8-102.2-29.8-144.6z" class=""></path>
+                        </svg>
+                    </div>
+                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                    Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. 
+                    In hendrerit, massa at.
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="communications">
+        <h2 class="communications__headline">Subscribe to our newsletter</h2>
+        <div class="communications__form">
+            <form action="#" class="communications__form__dispatch">
+                <div class="communications__form__dispatch__icon">
+                    <svg aria-hidden="true" data-prefix="far" data-icon="envelope" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-envelope fa-w-16 fa-2x">
+                        <path fill="currentColor" d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z" class=""></path>
+                    </svg>
+                </div>
+                <input class="communications__form__dispatch__information" type="text" name="communications__dispatch__information" placeholder="your@email.com">
+                <button class="communications__form__dispatch__button" type="button">Subscribe</button>
+            </form>
+        </div>
+        <div class="communications__feedback">
+            <div class="communications__feedback__column">
+                <ul class="communications__feedback__column__menu">
+                    <li class="communications__feedback__column__menu__list">
+                        <a href="#" class="communications__feedback__column__menu__list__link communications__feedback__column__menu__list__link--item">Ipsum quis</a>
+                    </li>
+                    <li class="communications__feedback__column__menu__list">
+                        <a href="#" class="communications__feedback__column__menu__list__link">Aliquam quis</a>
+                    </li>
+                    <li class="communications__feedback__column__menu__list">
+                        <a href="#" class="communications__feedback__column__menu__list__link">Pulvinar purus</a>
+                    </li>
+                    <li class="communications__feedback__column__menu__list">
+                        <a href="#" class="communications__feedback__column__menu__list__link">Etiam cursus</a>
+                    </li>
+                    <li class="communications__feedback__column__menu__list">
+                        <a href="#" class="communications__feedback__column__menu__list__link">Ipsum quis</a>
+                    </li>
+                    <li class="communications__feedback__column__menu__list">
+                        <a href="#" class="communications__feedback__column__menu__list__link">Enim faucibus</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="communications__feedback__column">
+                <ul class="communications__feedback__column__menu">
+                    <li class="communications__feedback__column__menu__list">
+                        <a href="#" class="communications__feedback__column__menu__list__link communications__feedback__column__menu__list__link--item">Ipsum quis</a>
+                    </li>
+                    <li class="communications__feedback__column__menu__list">
+                        <a href="#" class="communications__feedback__column__menu__list__link">Aliquam quis</a>
+                    </li>
+                    <li class="communications__feedback__column__menu__list">
+                        <a href="#" class="communications__feedback__column__menu__list__link">Pulvinar purus</a>
+                    </li>
+                    <li class="communications__feedback__column__menu__list">
+                        <a href="#" class="communications__feedback__column__menu__list__link">Etiam cursus</a>
+                    </li>
+                    <li class="communications__feedback__column__menu__list">
+                        <a href="#" class="communications__feedback__column__menu__list__link">Ipsum quis</a>
+                    </li>
+                    <li class="communications__feedback__column__menu__list">
+                        <a href="#" class="communications__feedback__column__menu__list__link">Enim faucibus</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="communications__feedback__column">
+                <div class="communications__feedback__column__headline">
+                    <a href="#" class="communications__feedback__column__headline__link">Follow us</a>
+                </div>
+                <ul class="communications__feedback__column__menu communications__feedback__column__menu--inner">
+                    <li class="communications__feedback__column__menu__list communications__feedback__column__menu__list--icon">
+                        <a href="#" class="communications__feedback__column__menu__list__link">
+                            <svg aria-hidden="true" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512" class="svg-inline--fa fa-facebook-f fa-w-9 fa-2x communications__feedback__column__menu__list__link__image">
+                                <path fill="currentColor" d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229" class="communications__feedback__column__menu__list__link__image-item"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="communications__feedback__column__menu__list communications__feedback__column__menu__list--icon">
+                        <a href="#" class="communications__feedback__column__menu__list__link">
+                            <svg aria-hidden="true" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-twitter fa-w-16 fa-2x communications__feedback__column__menu__list__link__image communications__feedback__column__menu__list__link__image--tw">
+                                <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" class="communications__feedback__column__menu__list__link__image-item"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="communications__feedback__column__menu__list communications__feedback__column__menu__list--icon">
+                        <a href="#" class="communications__feedback__column__menu__list__link">
+                            <svg aria-hidden="true" data-prefix="fab" data-icon="google-plus-g" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-google-plus-g fa-w-20 fa-2x communications__feedback__column__menu__list__link__image communications__feedback__column__menu__list__link__image--google">
+                                <path fill="currentColor" d="M386.061 228.496c1.834 9.692 3.143 19.384 3.143 31.956C389.204 370.205 315.599 448 204.8 448c-106.084 0-192-85.915-192-192s85.916-192 192-192c51.864 0 95.083 18.859 128.611 50.292l-52.126 50.03c-14.145-13.621-39.028-29.599-76.485-29.599-65.484 0-118.92 54.221-118.92 121.277 0 67.056 53.436 121.277 118.92 121.277 75.961 0 104.513-54.745 108.965-82.773H204.8v-66.009h181.261zm185.406 6.437V179.2h-56.001v55.733h-55.733v56.001h55.733v55.733h56.001v-55.733H627.2v-56.001h-55.733z" class="communications__feedback__column__menu__list__link__image-item"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="communications__feedback__column__menu__list communications__feedback__column__menu__list--icon">
+                        <a href="#" class="communications__feedback__column__menu__list__link">
+                            <svg aria-hidden="true" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-youtube fa-w-18 fa-2x communications__feedback__column__menu__list__link__image communications__feedback__column__menu__list__link__image--youtube">
+                                <path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" class="communications__feedback__column__menu__list__link__image-item"></path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <div class="communications__feedback__column__copy">Copyright © All Rights reserved</div>                
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.full.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.form__search-site__select').select2({
+                dropdownCssClass: 'myselect-dropdown'
+            });
+        });
+        $(document).ready(function() {
+            $('.navigation__search-site__select').select2({
+                dropdownCssClass: 'myselect-dropdown'
+            });
+        });
+    </script>
+</body>
+</html>
+
