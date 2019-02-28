@@ -823,12 +823,11 @@
     display: none;
   }
   /* line 682, C:/Users/User/Desktop/our_process/scss/our_process.scss */
-  .header__slider__titel::before {
+  .header__slider__titel::before {    
     position: relative;
     right: 0;
     top: 0;
-    width: 615px;
-    height: 305px;
+    width: 100%;
     margin-bottom: 87px;
   }
   /* line 690, C:/Users/User/Desktop/our_process/scss/our_process.scss */
