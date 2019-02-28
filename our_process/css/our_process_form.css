@@ -1,0 +1,178 @@
+@font-face {
+    font-family: "Circe-Bold";
+    src: url("../css/font/Circe-Bold.eot"),
+         url("../css/font/Circe-Bold.svg"),
+         url("../css/font/Circe-Bold.ttf"),
+         url("../css/font/Circe-Bold.woff"),
+         url("../css/font/Circe-Bold.woff2");
+}
+@font-face {
+    font-family: "Circe-Regular";
+    src: url("../css/font/Circe-Regular.eot"),
+         url("../css/font/Circe-Regular.svg"),
+         url("../css/font/Circe-Regular.ttf"),
+         url("../css/font/Circe-Regular.woff"),
+         url("../css/font/Circe-Regular.woff2");
+}
+.form__activ {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 59px rgba(0, 0, 0, 0.96);
+    opacity: 0.18;
+    margin: 40px 0 0 40px;
+    position: relative;
+}
+.form__activ::after {
+    content: "";
+    display: block;
+    width: 21px;
+    border: 2px solid #010101;
+
+}
+.form__activ::before {
+    content: "";
+    display: block;
+    width: 21px;
+    border: 2px solid #010101;
+    margin-bottom: 5px;
+}
+.check-in {
+    display: flex;
+    justify-content: space-around;
+    max-width: 50%;
+    background: #1b1b1b;
+    position: relative;
+    padding: 350px 100px 155px 140px;
+    margin: 0 auto;
+}
+.check-in::after {
+    content: "";
+    display: block;
+    background: url("../css/image/fon.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.clear {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    display: block;
+    z-index: 1;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    height: 30px;
+    width: 30px;
+}
+.check-in__person::before {
+    content: "";
+    display: block;
+    background: url("../css/image/logotype.png") no-repeat;
+    background-size: cover;
+    width: 380px;
+    height: 318px;
+    position: absolute;
+    top: -50%;
+    left: 50%;
+}
+.check-in__person {
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.check-in__person__info {
+    display: block;
+    background: none;
+    border: 1px solid #eac28f;
+    padding: 15px 150px 15px 20px;
+    margin-bottom: 20px;
+    outline:none;
+    color: #dcae7f;
+    font-size: 16px;
+    font-family: "Circe-Regular";
+}
+.check-in__person__info:focus {
+    color: #ffffff;
+}
+.check-in__button__user {
+    background-color: rgba(198, 138, 67, 0.08);
+    display: block;
+    width: 240px;
+    padding: 22px 0 22px 0;
+    margin-bottom: 26px;
+    border: 3px solid #ffad42;
+    color: #f5c063;
+    font-size: 23px;
+    position: relative;
+    z-index: 1;
+}
+.check-in__button__user:hover {
+    background-color: rgba(198, 138, 67, 0.4);
+}
+.check-in__button__user:last-child {
+    margin-bottom: 0;
+}
+.check-in__person__info__mistake {
+    border: 1px solid red;
+    color: red;
+}
+.check-in__person__info__mistake:focus {
+    color: red;
+}
+.check-in__person__info::-ms-clear {
+    display: none;
+ }
+
+@media screen and (max-width:1440px) {
+    .check-in {
+        max-width: 70%;
+    }
+    .check-in__button__user {
+        padding: 15px 0 15px 0;
+    }
+}
+@media screen and (max-width:1280px) {
+    .check-in__person::before {
+        left: 40%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .check-in {
+        max-width: 65%;
+    }
+    .form__activ {
+        margin: 20px 0 20px 20px;
+    }
+}
+@media screen and (max-width:768px) {
+    .check-in {
+        flex-direction: column;
+        align-items: center;
+        padding: 120px 100px 130px 
+    }
+    .check-in__person::before {
+        display: none;
+    }
+    .clear {
+        top: 5%;
+        right: 5%;
+    }
+}
+@media screen and (max-width:320px) {
+    .check-in {
+        max-width: 100%;
+        padding: 130px 35px 130px;
+    }
+    .check-in__button__user {
+        width: 220px;
+        font-size: 20px;
+    }
+    .check-in__person__info {
+        padding: 15px 50px 15px 20px;
+    }
+}
