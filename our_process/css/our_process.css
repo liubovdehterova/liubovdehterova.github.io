@@ -960,9 +960,9 @@
   }
   /* line 795, C:/Users/User/Desktop/our_process/scss/our_process.scss */
   .header__slider__menu {
-    max-width: 80%;
+    max-width: 100%;
     top: 220px;
-    left: 11%;
+    left: 0;
     position: relative;
   }
   /* line 801, C:/Users/User/Desktop/our_process/scss/our_process.scss */
