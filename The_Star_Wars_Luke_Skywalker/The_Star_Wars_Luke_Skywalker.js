@@ -97,27 +97,27 @@ var planet = {
                 $('.films__phantom').on('click', function(e){
                     e.preventDefault();
                     phantomMenace.init();
-                    if($(window).width() < '768') {
-                        $('.attack-clones').css('display', 'none');
-                        $('.revenge').css('display', 'none');
-                    }
                     $('.phantom-menace').append('<img src="https://vignette.wikia.nocookie.net/starwars/images/7/75/EPI_TPM_poster.png/revision/latest?cb=20130822171446" class="photo__films">');
+                    if($(window).width() < '769') {
+                        $('.attack-clones').remove();
+                        $('.revenge').remove();
+                    }                   
                 });
                 $('.films__attack-clones').on('click', function(e){
                     e.preventDefault();
                     attackClones.init();
-                    if($(window).width() < '768') {
-                        $('.phantom-menace').css('display', 'none');
-                        $('.revenge').css('display', 'none');
+                    if($(window).width() < '769') {
+                        $('.phantom-menace').remove();
+                        $('.revenge').remove();
                     }
                     $('.attack-clones').append('<img src="https://vignette.wikia.nocookie.net/starwars/images/3/3a/Attack_of_the_Clones_Cover.jpg/revision/latest?cb=20050501172807" class="photo__films">');
                 });
                 $('.films__revenge').on('click', function(e){
                     e.preventDefault();
                     revenge.init();
-                    if($(window).width() < '768') {
-                        $('.phantom-menace').css('display', 'none');
-                        $('.attack-clones').css('display', 'none');
+                    if($(window).width() < '769') {
+                        $('.phantom-menace').remove();
+                        $('.attack-clones').remove();
                     }
                     $('.revenge').append('<img src="https://usercontent2.hubstatic.com/12709537.jpg" class="photo__films">');
                 });
