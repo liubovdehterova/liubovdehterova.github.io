@@ -88,7 +88,8 @@ function buttonSlider() {
     const elemSlide = document.querySelectorAll('.header__slider__wrap');
     const top = document.querySelector('.header__slider__menu__btn-top');
     const bottom = document.querySelector('.header__slider__menu__btn-bottom');
-    const btnSlider = document.querySelectorAll('.header__slider__menu__inner--btn');    
+    const btnSlider = document.querySelectorAll('.header__slider__menu__inner--btn');
+    const headerSlidetMenu = document.querySelector('.header__slider__menu');
     btnSlider[index].classList.add('activ');
     bottom.addEventListener('click', function(e) {
         if(btnSlider[index].classList.contains('activ')) {
@@ -104,6 +105,7 @@ function buttonSlider() {
 
         if(index === (elemSlide.length - 1)) {
             bottom.style.display = 'none';
+            headerSlidetMenu.style.paddingBottom = '87px';
         }       
     });
     top.addEventListener('click', function(e) {
@@ -114,11 +116,14 @@ function buttonSlider() {
         bottom.style.display = 'block';
         elemSlide[index].style.display = 'none';
         elemSlide[--index].style.display = 'block';
+        headerSlidetMenu.style.paddingBottom = '0';
         if(index === 0) {
             top.style.display = 'none';
+            headerSlidetMenu.style.paddingTop = '87px';
         }
     });
 }
+
 
 function buttonInnerSlider() {
     let index = 0;
