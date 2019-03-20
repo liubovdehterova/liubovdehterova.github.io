@@ -1,0 +1,168 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0 0 0;
+  margin: 0 auto;
+  width: 100%;
+  
+  background: #3d0528;
+}
+.cls-1 {
+  fill:#494949;
+}
+.cls-1,
+.cls-10,
+.cls-11,
+.cls-12,
+.cls-13,
+.cls-14,
+.cls-15,
+.cls-16,
+.cls-17,
+.cls-18,
+.cls-2,
+.cls-3,
+.cls-4,
+.cls-5,
+.cls-6,
+.cls-7,
+.cls-8,
+.cls-9 {
+  stroke:#000;
+  stroke-miterlimit:10;
+}
+.cls-1,
+.cls-10,
+.cls-11,
+.cls-13,
+.cls-14,
+.cls-16,
+.cls-17,
+.cls-18,
+.cls-2,
+.cls-3,
+.cls-4,
+.cls-5,
+.cls-6,
+.cls-7,
+.cls-8,
+.cls-9 {
+  stroke-width:2px;
+}
+.cls-2 {
+  fill:#f99525;
+}
+.cls-3 {
+  fill:#f79128;
+}
+.cls-4 {
+  fill:#7cc90e;
+}
+.cls-5 {
+  fill:#098786;
+}
+.cls-6 {
+  fill:#ff0;
+}
+.cls-7 {
+  fill:#f89427;
+}
+.cls-8 {
+  fill:#08c9ca;
+}
+.cls-9 {
+  fill:#f59626;
+}
+.cls-10 {
+  fill:#0dcac6;
+}
+.cls-11 {
+  fill:#0dc9ca;
+}
+.cls-12 {
+  fill:#dafffd;
+}
+.cls-12,
+.cls-15 {
+  stroke-width:3px;
+}
+.cls-13 {
+  fill:#e61822;
+}
+.cls-14 {
+  fill:#fedf55;
+}
+.cls-15 {
+  fill:#fa9426;
+}
+.cls-16 {
+  fill:#fff;
+}
+.cls-17 {
+  fill:#9052a1;
+}
+.cls-18 {
+  fill:#231f20;
+}
+.head {
+  animation: head 2s infinite alternate;
+}
+.hand_1 {
+  animation: hand 3s infinite alternate;
+  transform-origin: 20% 35% 0;
+}
+.hand_2 {
+  animation: hand_2 4s infinite alternate;
+  transform-origin: 44% 35% 0;
+}
+.gears_1 {
+  animation: gears 3s infinite alternate;
+  transform-origin: 32% 42% 0;
+}
+.gears_2 {
+  animation: gears 3s infinite alternate;
+  transform-origin: 33% 43% 0;
+}
+
+@keyframes hand {
+  form {
+    transform: rotateZ(0);
+    transition: 3s;
+  }
+  to {
+    transform: rotateZ(-30deg);
+    transition: 3s;
+  }
+}
+@keyframes hand_2 {
+  form {
+    transform: rotateZ(0);
+    transition: 3s;
+  }
+  to {
+    transform: rotateZ(-120deg);
+    transition: 3s;
+  }
+}
+
+@keyframes head {
+  form {
+    transform: rotateZ(0);
+    transition: 3s;
+  }
+  to {
+    transform: rotateZ(2deg);
+    transition: 3s;
+  }
+}
+@keyframes gears {
+  form {
+    transform: rotateZ(0);
+    transition: 3s;
+  }
+  to {
+    transform: rotateZ(-120deg);
+    transition: 3s;
+  }
+}
