@@ -1,0 +1,1538 @@
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../fonts/Roboto-Medium.eot"), url("../fonts/Roboto-Medium.woff2"), url("../fonts/Roboto-Medium.woff"), url("../fonts/Roboto-Medium.ttf"), url("../fonts/Roboto-Medium.svg");
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.eot"), url("../fonts/Roboto-Regular.woff2"), url("../fonts/Roboto-Regular.woff"), url("../fonts/Roboto-Regular.ttf"), url("../fonts/Roboto-Regular.svg");
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src:  url("../fonts/Roboto-Regular.ttf")
+}
+body {
+  background: url('../image/FlyTimeSVG.png');
+  background-size: 385px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+  /* line 19, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.conteiner {
+  max-width: 1085px;
+  box-sizing: content-box;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  padding: 0 2rem;
+  cursor: default;
+}
+
+/* line 25, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.nuv {
+  font-family: "Roboto-Medium";
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 29, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.nuv__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  padding: 0;
+}
+
+/* line 35, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.nuv__list__inner {
+  list-style: none;
+  padding: 0 50px 0 0;
+  cursor: pointer;
+}
+
+/* line 38, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.nuv__list__inner:last-child {
+  padding: 0;
+}
+
+/* line 41, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.nuv__list__inner__link {
+  text-decoration: none;
+  color: #000000;
+  display: block;
+}
+
+/* line 44, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.nuv__list__inner__link:hover {
+  color: #30d630;
+}
+
+
+/* line 57, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.contact__us {
+  font-family: "Roboto-Medium";
+  color: white;
+  font-size: 20px;
+  border: none;
+  background-color: #30d630;
+  padding: 0 5%;
+}
+
+/* line 65, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.header {
+  cursor: default;
+  background: url("../image/fonImg.jpg") no-repeat;
+  background-size: cover;
+  font-family: "Roboto-Regular";
+  color: white;
+  padding: 5% 0 10% 0;
+  text-align: center;
+  position: relative;
+  margin-top: 1%;
+}
+.header__advertising {
+  background: url("../image/Advertising.jpg") no-repeat;
+  background-size: 100%;
+}
+
+/* line 75, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.header::before {
+  content: "";
+  display: block;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 86, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.header__name {
+  font-size: 45px;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 90, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.header__name__sub {
+  position: relative;
+  z-index: 1;
+}
+
+/* line 97, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.option {
+  font-family: "Roboto-Regular";
+  cursor: default;
+  margin-top: 5rem;
+}
+
+/* line 101, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.option__titel {
+  font-family: "Roboto-Medium";
+  font-size: 14px;
+  width: 20%;
+}
+
+/* line 105, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.option__inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* line 109, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.option__inner__information {
+  width: 28%;
+  padding: 0 8% 0 0;
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+
+/* line 113, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.option__inner__information:last-child {
+  padding: 0;
+}
+
+/* line 116, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.option__inner__information:nth-child(3) {
+  padding: 0;
+}
+
+/* line 119, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.option__inner__information__titel {
+  font-family: "Roboto-Medium";
+  font-size: 40px;
+  margin: 0;
+  cursor: pointer;
+}
+/* line 124, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.option__inner__information__discription {
+  font-size: 18px;
+  color: dimgray;
+}
+
+/* line 128, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.option__inner__information__link {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 133, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.option__inner__information:hover .option__inner__information__link {
+  color: red;
+}
+
+/* line 136, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.option__inner__information:hover .option__inner__information__discription {
+  color: black;
+}
+
+/* line 143, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.block__call {
+  font-family: "Roboto-Regular";
+  cursor: default;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* line 147, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.block__call__titel {
+  font-family: "Roboto-Medium";
+  font-size: 25px;
+}
+
+/* line 151, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.block__call__information {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 154, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.block__call__information__inner {
+  width: 50%;
+}
+
+/* line 156, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.block__call__information__inner__titel {
+  font-family: "Roboto-Medium";
+  font-size: 45px;
+  margin: 3% 0;
+}
+
+/* line 162, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.block__call__information__link {
+  display: block;
+  border: none;
+  color: white;
+  background: #30d630;
+  padding: 0.8rem 1rem;
+}
+
+/* line 171, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.footer {
+  margin-top: 3rem;
+  font-size: 12px;
+  font-family: "Roboto-Regular";
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+}
+
+/*# sourceMappingURL=index.css.map */
+
+
+
+/* __________________________________________________________ */
+.conteiner-item {
+  width: 100vw;
+  box-sizing: content-box;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 0 0 2rem 0;
+  height: 100vh;
+  background: rgba(51, 51, 51, 0.8);
+  z-index: 2;
+}
+.ask {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 36, C:/Users/Liubov/Desktop/FlyTimeOne/callUs/scss/index.scss */
+.ask__titel {
+  margin-bottom: 3rem;
+  font-family: "Roboto-Medium";
+
+}
+
+/* line 39, C:/Users/Liubov/Desktop/FlyTimeOne/callUs/scss/index.scss */
+.ask__inner {
+  background: white;
+  width: 20%;
+  padding: 1rem 2rem;
+  margin: 3rem 0;
+  position: absolute;
+  left: 36%;
+}
+
+/* line 46, C:/Users/Liubov/Desktop/FlyTimeOne/callUs/scss/index.scss */
+.ask__form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto-Medium";
+}
+
+/* line 52, C:/Users/Liubov/Desktop/FlyTimeOne/callUs/scss/index.scss */
+.ask__user__info {
+  margin: 2% 0 10% 0;
+  padding: 10px;
+  border: 1px solid #bbbbbb;
+  border-radius: 0.3rem;
+}
+
+/* line 60, C:/Users/Liubov/Desktop/FlyTimeOne/callUs/scss/index.scss */
+.sumbit {
+  padding: 10px;
+  border-radius: 0.3rem;
+  margin-top: 10%;
+  border: 1px solid #bbbbbb;
+  background: #30d630;
+  color: white;
+  font-size: 20px;
+}
+
+
+/* ____________________________________________________________________________________ */
+
+.submenu {
+  width: 181px;
+  display: none;
+  position: absolute;
+  left: -20px;
+  top: 3rem;
+  background: #ffffff;
+  padding: 10px;
+  z-index: 2;
+}
+.submenu-item {
+  display: block;
+}
+
+.submenu-link {
+  padding: 5px;
+  display: block;
+  font-family: "Roboto-Regular";
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.submenu-link:hover {
+  color: #30d630;
+}
+
+.nuv__list>.nuv__list__inner:hover>.submenu {
+  display: block;
+  visibility: visible;
+}
+.nuv__list__inner:last-child:hover>.submenu {
+  display: none;
+}
+.nuv__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nuv__list__inner {
+  display: inline-block;
+  position: relative;
+}
+
+.ask__inner-item {
+  display: flex;
+  justify-content: space-between;
+}
+.button__esc {
+  height: 100%;
+  border: none;
+  position: relative;
+  left: 20px;
+}
+
+
+/*_______________________________________________________*/
+.conteiner-other {
+  width: 100vw;
+  box-sizing: content-box;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 0 0 2rem 0;
+  height: 100vh;
+  background: rgba(51, 51, 51, 0.8);
+  z-index: 2;
+}
+/* line 40, C:/Users/Liubov/Desktop/FlyTimeOne/UsInteresting/scss/index.scss */
+.ask__inner__item {
+  background: white;
+  padding: 1rem 2rem;
+  margin: 2rem 0;
+  position: absolute;
+  width: 60%;
+}
+
+/* line 46, C:/Users/Liubov/Desktop/FlyTimeOne/UsInteresting/scss/index.scss */
+.ask__form__item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: "Roboto-Medium";
+}
+
+/* line 51, C:/Users/Liubov/Desktop/FlyTimeOne/UsInteresting/scss/index.scss */
+.ask__form__block {
+  width: 45%;
+}
+
+/* line 56, C:/Users/Liubov/Desktop/FlyTimeOne/UsInteresting/scss/index.scss */
+.ask__user__info__item {
+  margin: 2% 0 10% 0;
+  padding: 10px;
+  border: 1px solid #bbbbbb;
+  border-radius: 0.3rem;
+  display: block;
+  width: 100%;
+}
+
+/* line 63, C:/Users/Liubov/Desktop/FlyTimeOne/UsInteresting/scss/index.scss */
+.ask__user__info:first-child {
+  margin-top: 0;
+}
+
+/* line 66, C:/Users/Liubov/Desktop/FlyTimeOne/UsInteresting/scss/index.scss */
+.ask__user__info__select {
+  flex-basis: 100%;
+  margin: 0 0 5% 0;
+}
+
+/* line 70, C:/Users/Liubov/Desktop/FlyTimeOne/UsInteresting/scss/index.scss */
+.ask__user__info__file {
+  visibility: hidden;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  left: 0;
+}
+
+/* line 78, C:/Users/Liubov/Desktop/FlyTimeOne/UsInteresting/scss/index.scss */
+.ask__user__info__result {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 1.4em;
+  color: #818181;
+  margin: 0;
+}
+
+/* line 87, C:/Users/Liubov/Desktop/FlyTimeOne/UsInteresting/scss/index.scss */
+.ask__user__info__text {
+  width: 45%;
+  border: 1px solid #bbbbbb;
+  padding: 15px;
+  font-size: 16px;
+  font-family: "Roboto-Regular";
+}
+
+/* line 97, C:/Users/Liubov/Desktop/FlyTimeOne/UsInteresting/scss/index.scss */
+.ask__form__button {
+  flex-basis: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 103, C:/Users/Liubov/Desktop/FlyTimeOne/UsInteresting/scss/index.scss */
+.sumbit,
+.submit {
+  padding: 0.5rem 4rem;
+  border-radius: 0.3rem;
+  margin-top: 0;
+  border: 1px solid #bbbbbb;
+  background: #30d630;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.ask__inner__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.not-blog {
+  display: none;
+}
+/*_________________________________________________________________________*/
+.header__site {
+  background: url("../image/create-site.jpg") no-repeat;
+  background-size: cover;
+}
+.block__main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.block__main__inner {
+  font-family: "Roboto-Regular";
+  width: 55%;
+}
+.block__main__inner__title {
+  font-family: "Roboto-Medium";
+  margin: 0;
+}
+.block__main__inner__info {
+  font-size: 1rem;
+  line-height: 1.5em;
+  color: rgba(0, 0, 0, .7);
+}
+.block__main__button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #676767;
+  cursor: pointer;
+}
+.block__main__button:hover {
+  color: black;
+}
+.ask__inner__site {
+  width: 25%;
+  margin: 2rem 0 0 0;
+  height: 520px;
+}
+/*______________________________________________________________________________*/
+.block__info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 3rem;
+  font-family: "Roboto-Regular";
+}
+.block__info__inner {
+  width: 28%;
+  padding: 0 8% 0 0;
+  margin-bottom: 5rem;
+  cursor: pointer;
+}
+.block__info__inner:last-child {
+  padding: 0;
+}
+.block__info__inner:nth-child(3) {
+  padding: 0;
+}
+.block__info__inner__title {
+  font-family: "Roboto-Medium";
+  font-size: 1.25rem;
+  margin: 0;
+  cursor: pointer;
+}
+/* line 124, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.block__info__inner__descrition {
+  font-size: 1rem;
+  color: #676767;
+}
+
+/* line 128, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.block__info__inner__button {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 133, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.block__info__inner:hover .block__info__inner__button {
+  color: red;
+}
+
+/* line 136, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.block__info__inner:hover .block__info__inner__descrition {
+  color: black;
+}
+.block__info__inner-other:hover .block__info__inner__descrition {
+  color: #676767;
+  cursor: auto;
+}
+.text__messeng {
+  margin-bottom: 2rem;
+}
+.block__call__link__inner {
+  font-size: 1rem;
+  cursor: pointer;
+}
+.subtitle {
+  font-family: "Roboto-Regular";
+  text-transform: uppercase;
+}
+.block__main__other {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+.block__info__inner__title-other {
+  cursor: auto;
+}
+
+.price__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price__inner__id {
+  color: #676767;
+}
+.price__inner__count {
+  font-size: 5rem;
+  margin: 0;
+  font-family: "Roboto-Bold";
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.price__inner__name {
+  font-size: 2rem;
+  font-family: "Roboto-Regular";
+}
+.price__inner__count-text {
+  color: #000000;
+  font-size: 2rem;
+  position: relative;
+  left: 10px;
+}
+.price__inner__margin {
+  width: 33.33333%;
+}
+.price__inner__margin:first-child {
+  width: 10%;
+}
+.price__inner__margin:nth-child(2) {
+  margin-right: 10%;
+}
+.price__inner__margin-button {
+  display: flex;
+  justify-content: flex-end;
+}
+.price__inner__form {
+  padding: 1rem 3rem;
+  background: none;
+  border: 1px solid #30d630;
+  cursor: pointer;
+}
+/*_____________________________________________________________*/
+.header__name__sub-other {
+  width: 75%;
+}
+.header__seo {
+  background: url("../image/seo.jpg") no-repeat;
+  background-size: cover;
+}
+.subheader__block {
+  display: flex;
+  justify-content: center;
+}
+/*__________________________________________________________________*/
+.description {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  font-family: "Roboto-Regular";
+  color: #676767;
+}
+.description__info__title {
+  margin: 0;
+  margin-bottom: 2rem;
+  font-family: "Roboto-Medium";
+  color: #000000;
+}
+.description__info__item-inner__title {
+  color: #000000;
+}
+.description__info {
+  width: 50%;
+}
+.description__info__item:before {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 80%;
+  background: rgba(48, 214, 48, 0.3);
+}
+.factors {
+  font-family: "Roboto-Regular";
+  background: rgba(48, 214, 48, 0.1);
+  padding: 3% 5%;
+  margin-top: 3rem;
+}
+.factors__header__title {
+  font-family: "Roboto-Medium";
+  margin: 20px 0 0 0;
+}
+.factors__main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.factors__main:before {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: rgba(48, 214, 48, 0.2);
+}
+.factors__main__inner {
+  width: 28%;
+  margin-right: 5%;
+  text-align: center;
+}
+.factors__main__inner__text {
+  color: #676767;
+}
+.factors__main__inner:nth-child(3) {
+  margin: 0;
+}
+.factors__main__inner:last-child {
+  margin: 0;
+}
+.factors__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.factors__header__text {
+  text-align: center;
+  width: 50%;
+  color: #676767;
+}
+.service {
+  font-family: "Roboto-Regular";
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.service__inner {
+  width: 50%;
+  color: #676767;
+}
+.service__inner__list {
+  padding-inline-start: 20px;
+}
+.service__inner__title {
+  margin: 0;
+  color: #000000;
+}
+.service__button__item {
+  background: rgba(48, 214, 48, 1);
+  color: #ffffff;
+  border: none;
+  padding: 1rem 3rem;
+  font-size: 18px;
+  cursor: pointer;
+}
+.service__inner__list__info {
+  margin-bottom: 1rem;
+}
+.footer {
+  background: rgba(48, 214, 48, 0.2);
+  padding: 1rem;
+}
+.footer__main {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__link {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer__link__inner {
+  padding: 0;
+  margin: 0;
+  margin-right: 5rem;
+}
+.footer__link__inner:last-child {
+  margin-right: 0;
+}
+.list {
+  display: flex;
+}
+.footer__link__inner__list {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+.footer__link__inner__list-item {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+.footer__link__title__inner {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Roboto-Medium";
+  font-size: 14px;
+}
+.footer__link__inner__list-item:hover{
+  color: rgba(48, 214, 48, 1);
+}
+.logo__link {
+  display: block;
+  background: url("../image/FlyTime.png") no-repeat;
+  background-size: contain;
+  width: 6rem;
+  height: 80px;
+
+}
+/*_________________________________________________________*/
+.ask__titel {
+  color: black;
+}
+.user__discprintion {
+  color: black;
+}
+
+.process {
+  text-align: center;
+  font-family: "Roboto-Regular";
+  margin-top: 3rem;
+  background: rgba(48, 214, 48, 0.2);
+  padding: 1% 3%;
+}
+.process__head__title {
+  font-family: "Roboto-Medium";
+}
+.process__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.process__inner__other {
+  display: flex;
+  justify-content: center;
+}
+.process__list {
+  width: 26%;
+  margin-right: 2rem;
+}
+.process__list:nth-child(3) {
+  margin-right: 0;
+}
+.process__list:last-child {
+  margin-right: 0;
+}
+.idea:before{
+  content: '';
+  display: block;
+  background: url("../image/idea.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 40%;
+}
+.study:before{
+  content: '';
+  display: block;
+  background: url("../image/study.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 40%;
+}
+.prototype:before{
+  content: '';
+  display: block;
+  background: url("../image/prototype.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 40%;
+}
+.design:before{
+  content: '';
+  display: block;
+  background: url("../image/computer.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 40%;
+}
+.mobile {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.mobile__info {
+  width: 60%;
+  font-family: "Roboto-Regular";
+}
+.mobile__info__title {
+  margin: 0;
+  font-family: "Roboto-Medium";
+  font-size: 3.6vw;
+}
+.option-other {
+  background: rgba(48, 214, 48, 0.2);
+  padding: 1rem 0 1rem 2rem;
+}
+.option__inner__information__title-other {
+  font-family: "Roboto-Regular";
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 1);
+}
+.option__inner__information__item {
+  text-decoration: none;
+}
+.option__titel {
+  font-family: "Roboto-Medium";
+  font-size: 16px;
+  width: 20%;
+}
+.mobile__info__title-other {
+  margin: 3rem 0;
+}
+.option__inner__information-other {
+  width: 26%;
+  font-size: 1.25rem;
+}
+.option__inner__information-other__num {
+  font-size: 32px;
+  opacity: 0.4;
+  font-family: "Arial";
+  margin-bottom: 1rem;
+}
+.fromDesign {
+  font-family: "Roboto-Regular";
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.header__design {
+  background-image: url("../image/webDesign.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+.fromDesign__inner {
+  width: 65%;
+}
+.fromDesign__form__name {
+  display: block;
+}
+.fromDesign__form__inner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.fromDesign__title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.fromDesign__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.fromDesign__form__input {
+  height: 59px;
+  margin-bottom: 30px;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #000;
+  width: 330px;
+  padding: 0 35px;
+  font-size: 18px;
+}
+.fromDesign__form__input {
+  margin-right: 5rem;
+  border: 1px solid rgba(48, 214, 48, 1);
+}
+.fromDesign__form__input:last-child{
+  margin-right: 0;
+}
+.fromDesign__textarea {
+  width: 90%;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(48, 214, 48, 1);
+  font-size: 18px;
+  padding: 10px 35px;
+}
+/*_____________________________________________________________*/
+.context__call {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto-Regular";
+  margin-top: 3rem;
+}
+.context__call__inner {
+  width: 55%;
+}
+.context__call__inner__title {
+  margin: 0;
+  font-family: "Roboto-Medium";
+  font-size: 42px;
+}
+.context__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: "Roboto-Regular";
+  background: rgba(48, 214, 48, 0.2);
+  padding: 0 2rem 2rem 2rem;
+}
+.context__list__inner {
+  list-style: none;
+  width: 20%;
+  margin-right: 5%;
+  margin-top: 3rem;
+}
+.context__list__inner:nth-child(4) {
+  margin-right: 0;
+}
+.context__list__inner:last-child {
+  margin-right: 0;
+}
+.context__list__inner__title {
+  font-family: "Roboto-Medium";
+  font-size: 24px;
+  margin-top: 5px;
+  margin-bottom: 1rem;
+}
+
+
+.context__list__inner-traffic:before{
+  content: '';
+  display: block;
+  background: url("../image/web-traffic.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 30%;
+}
+.context__list__inner-speed:before{
+  content: '';
+  display: block;
+  background: url("../image/speed.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 20%;
+}
+.context__list__inner-call:before{
+  content: '';
+  display: block;
+  background: url("../image/customer-service.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 30%;
+}
+.context__list__inner-return:before{
+  content: '';
+  display: block;
+  background: url("../image/return.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 20%;
+}
+
+.context__list__inner-economic:before{
+  content: '';
+  display: block;
+  background: url("../image/economic.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 20%;
+}
+.context__list__inner-pie-chart:before{
+  content: '';
+  display: block;
+  background: url("../image/pie-chart.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 20%;
+}
+.context__list__inner-meeting:before{
+  content: '';
+  display: block;
+  background: url("../image/meeting.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 20%;
+}
+.context__list__inner-testing:before{
+  content: '';
+  display: block;
+  background: url("../image/testing.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 20%;
+}
+.stage {
+  font-family: "Roboto-Regular";
+  margin-top: 3rem;
+  padding: 0.5rem 1rem;
+}
+.stage__info__title {
+  font-family: "Roboto-Bold";
+  font-weight: bold;
+  font-size: 52px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.stage__info__subtitle {
+  margin-bottom: 0;
+}
+.stage__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.stage__info {
+  width: 45%;
+}
+.stage__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-left: 5%;
+}
+.stage__list__inner {
+  width: 40%;
+  margin-right: 10%;
+  margin-top: 5%;
+  color: rgba(0, 0, 0, 0.6);
+}
+.stage__info__text {
+  color: rgba(0, 0, 0, 0.6);
+  width: 90%;
+}
+.stage__list__inner:before {
+  content: '';
+  display: block;
+  background: #000000;
+  background-size: contain;
+  width: 60px;
+  height: 3px;
+  position: relative;
+  left: 0;
+  margin-bottom: 2rem;
+}
+.stage__list__inner:nth-child(2){
+  margin-right: 0;
+}
+.stage__list__inner:last-child{
+  margin-right: 0;
+}
+.bg {
+  background: rgba(48, 214, 48, 0.2);
+}
+/*_______________________________________________________________*/
+.header__support {
+  background: url("../image/support.jpg") no-repeat;
+  background-size: 100%;
+}
+.work {
+  margin-top: 4rem;
+  background: rgba(48, 214, 48, 0.2);
+  padding: 1rem;
+}
+.work__title {
+  font-family: "Roboto-Medium";
+  margin-bottom: 4rem;
+  margin-top: 0;
+}
+.work__list {
+  font-family: "Roboto-Regular";
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.work__list__inner {
+  width: 15%;
+  position: relative;
+}
+.work__list__inner__cons:before {
+  content: '';
+  display: block;
+  background: url("../image/counseling.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 20%;
+  margin-bottom: 1rem;
+}
+.work__list__inner__tech:before {
+  content: '';
+  display: block;
+  background: url("../image/tech.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 20%;
+  margin-bottom: 1rem;
+}
+.work__list__inner__enter:before {
+  content: '';
+  display: block;
+  background: url("../image/enter.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 20%;
+  margin-bottom: 1rem;
+}
+.work__list__inner__advertising:before {
+  content: '';
+  display: block;
+  background: url("../image/advertising.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 20%;
+  margin-bottom: 1rem;
+}
+
+
+.work__list__inner-bg:after {
+  content: '';
+  display: block;
+  background: url("../image/right-arrow.png") no-repeat;
+  background-size: cover;
+  width: 60px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 200px;
+}
+.advantage__container {
+  margin-top: 3rem;
+  font-family: "Roboto-Regular";
+}
+.advantage__container__title {
+  font-size: 38px;
+  margin-bottom: 3rem;
+  font-family: "Roboto-Medium";
+  width: 45%;
+}
+.advantage__container__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.advantage__container__list__inner {
+  width: 45%;
+  margin-bottom: 3rem;
+}
+.advantage__container__list__inner__description {
+  color: rgba(0, 0, 0, 0.6);
+}
+/*__________________________________________________*/
+.header__improvement {
+  background-image: url("../image/Improvement.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+.ask__improvement {
+  font-family: "Roboto-Regular";
+  background: rgba(48, 214, 48, 0.2);
+  padding: 2rem;
+  margin-top: 3rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+.ask__improvement__title {
+  font-family: "Roboto-Medium";
+  margin: 0;
+  color: rgba(0, 0, 0, 1);
+}
+.ask__improvement-other {
+  background: none;
+}
+.ask__improvement__title-other {
+  width: 45%;
+}
+.ask__improvement__list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 4rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Roboto-Regular";
+}
+.ask__improvement__list__inner {
+  width: 25%;
+  margin-top: 3rem;
+  display: flex;
+  margin-right: 6rem;
+}
+.ask__improvement__list__inner:nth-child(3) {
+  margin-right: 0;
+}
+.ask__improvement__list__inner:nth-child(6) {
+  margin-right: 0;
+}
+.context__call__other {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.ask__improvement__list__inner-item__title {
+  margin: 0;
+}
+.ask__improvement__list__inner-item__title {
+  color: #000000;
+}
+.work__information {
+  font-family: "Roboto-Regular";
+  margin-top: 4rem;
+  background: rgba(48, 214, 48, 0.2);
+  padding: 2rem;
+}
+.work__information__title {
+  font-family: "Roboto-Medium";
+}
+.work__information__subtitle {
+  color: rgba(0, 0, 0, 0.6);
+}
+/*_________________________________________________________________*/
+.header__redesign {
+  background-image: url("../image/design.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+.ask__improvement-other {
+  background: none;
+}
+.ask__improvement__list__inner-item__text-other {
+  margin-top: 0;
+}
+.header__analytics {
+  background-image: url("../image/analytics.jpg");
+}
+.ask__improvement__list__inner-analytics {
+  width: 25%;
+  margin-right: 7rem;
+}
+.ask__improvement__list__inner-analytics:nth-child(3) {
+  margin-right: 0;
+}
+.ask__improvement__list-analytics {
+  justify-content: flex-start;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.analytics {
+  font-family: "Roboto-Regular";
+}
+.analytics__title {
+  font-family: "Roboto-Medium";
+  margin-bottom: 0;
+}
+.analytics__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.analytics__list__inner {
+  width: 26%;
+  margin-bottom: 3rem;
+  padding: 0 2rem;
+  position: relative;
+}
+.analytics__list__inner:hover {
+  background: rgba(48, 214, 48, 0.2);
+}
+.analytics__list__inner__title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 1.7rem;
+  left: 1.2rem;
+  width: 5px;
+  height: 5px;
+  background: #000;
+  border-radius: 50%;
+}
+.ask__titel-other {
+  width: 60%;
+}
+.ask__inner-other {
+  height: 550px;
+}
+.ask__titel__inner {
+  display: block;
+}
+.title__dev__inner-other {
+  margin-bottom: 3rem;
+}
+.ask__analytics {
+  margin-bottom: 5rem;
+}
+.header__onlineStore {
+  background-image: url("../image/ecommerce.jpg");
+  background-size: 100%;
+}
+.block__info__inner:hover .block__info__inner__title {
+  color: #000000;
+}
+.ask__improvement__list__inner-title {
+  margin-top: 0;
+  color: #000000;
+}
+.context__call__other-item{
+  margin-top: 0;
+}
+.block__main__button-other {
+  text-align: start;
+}
+.analytics__list__inner__description-other:hover {
+  color: rgb(40, 128, 40);
+}
+.block__main__button-other:hover .ask__improvement__list__inner-title {
+  color:  rgb(40, 128, 40);
+}
+.ask__store {
+  font-family: "Roboto-Regular";
+}
+.ask__store__title {
+  font-family: "Roboto-Medium";
+}
+.ask__store__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+.ask__store__list__inner {
+  width: 25%;
+}
+.ask__store__list__inner__description,
+.analytics__list__inner__description {
+  color: rgba(0, 0, 0, 0.6);
+}
+.analytics__list {
+  font-family: "Roboto-Regular";
+  cursor: default;
+}
+/*_______________________________________________________________________*/
+.header__corporation {
+  background-image: url("../image/corporation.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+.ask__improvement-other__item,
+.ask__store {
+  background: rgba(48, 214, 48, 0.2);
+}
+.ask__store {
+  padding: 1rem 2rem;
+}
+.ask__improvement__title__submenu {
+  margin-bottom: 2rem;
+}
+/*_______________________________________________________________________*/
+.header__landing {
+  background-image: url("../image/landing.jpg");
+  background-size: 100%;
+}
+.types {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.types__list__title {
+  color: #000000;
+}
+.types__list {
+  width: 16%;
+  position: relative;
+}
+.types__list:after {
+  content: '';
+  display: block;
+  background: url("../image/right-arrow.png") no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 100px;
+}
+.types__list:last-child:after {
+  background: none;
+}
+
+
+
+
+@media screen and (max-width: 1366px){
+  body {
+    background-size: 124px;
+  }
+  .ask__inner {
+    width: 25%;
+    margin: 1.5rem 0;
+  }
+  .ask__titel {
+    margin-bottom: 1.5rem;
+  }
+  .sumbit {
+    margin-top: 0;
+  }
+  .ask__form__button {
+    margin-top: 2%;
+  }
+  .submit__form {
+    margin-top: 0;
+  }
+}
