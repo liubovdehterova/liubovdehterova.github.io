@@ -1,0 +1,344 @@
+@font-face {
+    font-family: "Caveat-Regular";
+    src: url("../fonts/Caveat-Regular.svg"),
+         url("../fonts/Caveat-Regular.eot"),
+         url("../fonts/Caveat-Regular.ttf"),
+         url("../fonts/Caveat-Regular.woff"),
+         url("../fonts/Caveat-Regular.woff2")
+}
+
+@font-face {
+    font-family: "NotoSerifSC-Regular-Alphabetic";
+    src: url("../fonts/NotoSerifSC-Regular-Alphabetic.svg"),
+    url("../fonts/NotoSerifSC-Regular-Alphabetic.eot"),
+    url("../fonts/NotoSerifSC-Regular-Alphabetic.ttf"),
+    url("../fonts/NotoSerifSC-Regular-Alphabetic.woff"),
+    url("../fonts/NotoSerifSC-Regular-Alphabetic.woff2")
+}
+
+.all {
+    position: relative;
+    background: url("../img/background/steel-metal.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.art__string {
+    font-family: "Caveat-Regular";
+    font-size: 20px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: .5rem 0;
+    font-family: "NotoSerifSC-Regular-Alphabetic";
+}
+.container-other {
+    max-width: 1000px;
+    background: rgba(48, 48, 48, 0.8);
+    padding: .5rem 1rem;
+    position: relative;
+}
+.all:before {
+    content: "";
+    display: block;
+    background: rgba(78, 78, 78, 0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.head {
+    position: relative;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 1;
+}
+.logo__link {
+    display: block;
+    background: url("../img/logo/МСР.png") no-repeat;
+    background-size: contain;
+    width: 9.5rem;
+    height: 4.5rem;
+}
+.ob {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bl__menu {
+    padding: 0;
+    width: 95%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.bl__menu__list {
+    padding: 0;
+    cursor: pointer;
+    border: 4px solid transparent;
+}
+.bl__menu__list:hover {
+    position: relative;
+    border-bottom: 4px solid rgb(59, 59, 59);
+    box-sizing: border-box;
+}
+.bl__menu__list__link,
+.st__info__description__link {
+    text-decoration: none;
+    color: rgb(61, 83, 44);
+}
+.bl__main {
+    position: relative;
+    color: rgb(162, 162, 162);
+    z-index: 5;
+}
+.st__info__title,
+.bl__main__cr__title {
+    color: rgb(215, 215, 215);
+}
+.bl__main__cr {
+    position: relative;
+    color: rgb(162, 162, 162);
+    z-index: 5;
+}
+.st__info__description__link {
+    color: rgb(143, 143, 143);
+}
+.bl__main__cr__title {
+    margin: 1rem 0;
+}
+.menu {
+    background: rgba(255, 255, 255, 0.8);
+    max-width: 1000px;
+    margin: auto;
+}
+.container__ps {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bl__button__link {
+    position: relative;
+    text-decoration: none;
+    color: rgb(61, 83, 44);
+}
+.bl__button__link:before {
+    content: "";
+    display: block;
+    background: url("../img/icon/phone.png") no-repeat;
+    background-size: contain;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    right: 7.5rem;
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+.art__string {
+    color: #ffffff;
+}
+.bl__main__cr__flex {
+    display: flex;
+    justify-content: space-between;
+}
+.art__string {
+    width: 30%;
+}
+.bl__main__cr-other-fl {
+    width: 30%;
+}
+.art__string-other {
+    width: 100%;
+}
+.cr__bl {
+    position: relative;
+    z-index: 1;
+    background: rgb(61, 83, 44);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem 0;
+}
+.cr__bl__inner {
+    background: #ffffff;
+    padding: 2rem;
+}
+
+.ant-carousel {
+    max-width: 810px;
+    padding-top: 10px;
+}
+
+.ant-carousel-element {
+    width: 200px;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+/* General styles */
+.ant-carousel {
+    width: auto;
+    position: relative;
+}
+
+.ant-carousel-hider {
+    overflow: hidden;
+}
+
+.ant-carousel-list {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ant-carousel-element {
+    display: block;
+    flex: 0 0 auto;
+}
+
+/* Navigation item styles */
+div.ant-carousel-arrow-left,
+div.ant-carousel-arrow-right {
+    width: 22px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0.6;
+    z-index: 32;
+}
+
+div.ant-carousel-arrow-left {
+    left: -60px;
+    top: 35%;
+    display: block;
+    background: url("../img/icon/left-arrow.png") no-repeat;
+    background-size: contain;
+    width: 3rem;
+    height: 3rem;
+}
+
+div.ant-carousel-arrow-right {
+    right: -60px;
+    top: 35%;
+    display: block;
+    background: url("../img/icon/next.png") no-repeat;
+    background-size: contain;
+    width: 3rem;
+    height: 3rem;
+}
+
+div.ant-carousel-arrow-left:hover {
+    opacity: 1.0;
+}
+
+div.ant-carousel-arrow-right:hover {
+    opacity: 1.0;
+}
+
+div.ant-carousel-dots {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    z-index: 30;
+    text-align: center;
+}
+
+span.ant-dot {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    padding: 0;
+    display: inline-block;
+    background-color: #BBB;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ant-carousel-element {
+    background-color: #BBB;
+    padding: 2rem 1rem;
+}
+.bl__main__cr-other-fl {
+    display: flex;
+    justify-content: flex-end;
+}
+.bl__main__cr-item {
+    margin-top: 1rem;
+}
+.footer {
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.6);
+    color: rgb(62, 62, 62);
+    padding: 1rem 2rem 0.5rem 2rem;
+}
+.footer__cont {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__cont__phone-inner,
+.footer__cont__email-inner,
+.footer__cont__phone-inner-other {
+    position: relative;
+    text-decoration: none;
+    display: block;
+    color: rgb(40, 52, 30);
+    text-align: right;
+    font-size: 18px;
+}
+.footer__cont__phone-inner:before {
+    content: "";
+    display: block;
+    background: url("../img/icon/A1.png") no-repeat;
+    background-size: contain;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    right: 7.6rem;
+    top: -5px;
+}
+.footer__cont__email-inner {
+    text-align: right;
+}
+.footer__cont-reg {
+    margin-top: 0.5rem;
+}
+.bl__main__cr-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.st__info__description {
+    width: 55%;
+}
+.bl__main__cr__flex-inner {
+    width: 50%;
+}
+.st__info__description-other {
+    width: 100%;
+}
+.footer__cont__phone-inner-other:before {
+    content: "";
+    display: block;
+    background: url("../img/icon/MTS.png") no-repeat;
+    background-size: contain;
+    width: 3.5rem;
+    height: 2rem;
+    position: absolute;
+    right: 7.5rem;
+    top: 1px;
+}
+.footer__cont__phone-inner-other {
+    margin-top: 0.5rem;
+}
+.footer__cont__email-inner {
+    margin-top: 0.5rem;
+}
+.footer__cont__email {
+    color: #000000;
+}
