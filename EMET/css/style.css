@@ -1,0 +1,1207 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../fonts/Gilroy-Regular.eot");
+  src: url("../fonts/Gilroy-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff"), url("../fonts/Gilroy-Regular.svg#Gilroy-Regular") format("svg"), url("../fonts/Gilroy-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Betina';
+  src: url("../fonts/BetinaScript-NormalCyrillic.eot");
+  src: url("../fonts/BetinaScript-NormalCyrillic.eot?#iefix") format("embedded-opentype"), url("../fonts/BetinaScript-NormalCyrillic.woff2") format("woff2"), url("../fonts/BetinaScript-NormalCyrillic.woff") format("woff"), url("../fonts/BetinaScript-NormalCyrillic.svg#Gilroy-Regular") format("svg"), url("../fonts/BetinaScript-NormalCyrillic.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* line 27, ../work/EMET/scss/style.scss */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 32, ../work/EMET/scss/style.scss */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* line 37, ../work/EMET/scss/style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 41, ../work/EMET/scss/style.scss */
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 46, ../work/EMET/scss/style.scss */
+input,
+output {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+}
+
+/* line 54, ../work/EMET/scss/style.scss */
+input[type="range"] {
+  -webkit-appearance: none;
+  margin-right: 15px;
+  height: 7px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  background-image: linear-gradient(rgba(124, 124, 124, 0.5), rgba(124, 124, 124, 0.5));
+  background-repeat: no-repeat;
+}
+
+/* line 64, ../work/EMET/scss/style.scss */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #c7c7c7;
+  cursor: ew-resize;
+  box-shadow: 0 0 2px 0 #555;
+  transition: background .3s ease-in-out;
+}
+
+/* line 75, ../work/EMET/scss/style.scss */
+input[type="range"]::-moz-range-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #c7c7c7;
+  cursor: ew-resize;
+  box-shadow: 0 0 2px 0 #555;
+  transition: background .3s ease-in-out;
+}
+
+/* line 86, ../work/EMET/scss/style.scss */
+input[type="range"]::-ms-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #c7c7c7;
+  cursor: ew-resize;
+  box-shadow: 0 0 2px 0 #555;
+  transition: background .3s ease-in-out;
+}
+
+/* line 97, ../work/EMET/scss/style.scss */
+input[type="range"]::-webkit-slider-thumb:hover {
+  background: #c7c7c7;
+}
+
+/* line 101, ../work/EMET/scss/style.scss */
+input[type="range"]::-moz-range-thumb:hover {
+  background: #c7c7c7;
+}
+
+/* line 105, ../work/EMET/scss/style.scss */
+input[type="range"]::-ms-thumb:hover {
+  background: #c7c7c7;
+}
+
+/* line 109, ../work/EMET/scss/style.scss */
+input[type='range']::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+/* line 116, ../work/EMET/scss/style.scss */
+input[type='range']::-moz-range-track {
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+/* line 123, ../work/EMET/scss/style.scss */
+.container {
+  max-width: 1384px;
+  margin: 0 auto;
+}
+
+/* line 126, ../work/EMET/scss/style.scss */
+.container__main {
+  max-width: 1291px;
+  margin: 0 auto;
+}
+
+/* line 132, ../work/EMET/scss/style.scss */
+.header {
+  background: #212121;
+  font-family: 'Gilroy';
+}
+
+/* line 137, ../work/EMET/scss/style.scss */
+.header__top__container {
+  margin: 0 auto;
+  padding: 21px 0 22px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 145, ../work/EMET/scss/style.scss */
+.header__top__navigation {
+  display: flex;
+  align-items: center;
+}
+
+/* line 149, ../work/EMET/scss/style.scss */
+.header__top__navigation__inner__link {
+  color: #6C6C6C;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin-right: 40px;
+}
+
+/* line 157, ../work/EMET/scss/style.scss */
+.header__top__navigation__inner__link:last-child {
+  color: #5A31F5;
+  margin-right: 54px;
+}
+
+/* line 164, ../work/EMET/scss/style.scss */
+.header__top__navigation__button {
+  border: 1px solid #77C8D0;
+  border-radius: 22px;
+  background: none;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 15px 25px;
+  cursor: pointer;
+}
+
+/* line 176, ../work/EMET/scss/style.scss */
+.header__top__navigation__button:hover {
+  background: #77C8D0;
+}
+
+/* line 184, ../work/EMET/scss/style.scss */
+.header__bottom__container {
+  max-width: 1175px;
+  margin: 0 auto;
+  padding: 111px 0 193px;
+}
+
+/* line 192, ../work/EMET/scss/style.scss */
+.header__bottom__absolute__top {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  color: #F19537;
+  font-family: 'Betina';
+  margin-bottom: 64px;
+  margin-left: 15%;
+}
+
+/* line 202, ../work/EMET/scss/style.scss */
+.header__bottom__absolute__center {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  color: #96C05B;
+  font-family: 'Betina';
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 212, ../work/EMET/scss/style.scss */
+.header__bottom__absolute__bottom {
+  color: #E25241;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  font-family: 'Betina';
+  margin-top: 107px;
+  display: flex;
+  justify-content: end;
+  margin-right: 20%;
+}
+
+/* line 225, ../work/EMET/scss/style.scss */
+.header__bottom__subtitle {
+  color: #6C6C6C;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: lowercase;
+}
+
+/* line 233, ../work/EMET/scss/style.scss */
+.header__bottom__title {
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+/* line 242, ../work/EMET/scss/style.scss */
+.information {
+  font-family: 'Gilroy';
+}
+
+/* line 245, ../work/EMET/scss/style.scss */
+.information__container {
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+/* line 250, ../work/EMET/scss/style.scss */
+.information__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 255, ../work/EMET/scss/style.scss */
+.information__description {
+  margin-right: 79px;
+  width: 60%;
+}
+
+/* line 259, ../work/EMET/scss/style.scss */
+.information__description__ask {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: lowercase;
+  color: #373737;
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+/* line 269, ../work/EMET/scss/style.scss */
+.information__description__ask::after {
+  content: '';
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #5A31F5;
+  margin-top: 5px;
+}
+
+/* line 280, ../work/EMET/scss/style.scss */
+.information__description__title {
+  color: #373737;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  margin-left: 55px;
+  margin-top: 0;
+  margin-bottom: 80px;
+}
+
+/* line 290, ../work/EMET/scss/style.scss */
+.information__description__list {
+  margin-left: 140px;
+}
+
+/* line 293, ../work/EMET/scss/style.scss */
+.information__description__list__inner {
+  color: #373737;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: lowercase;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  position: relative;
+}
+
+/* line 305, ../work/EMET/scss/style.scss */
+.information__description__list__inner:last-child {
+  margin-bottom: 0;
+}
+
+/* line 309, ../work/EMET/scss/style.scss */
+.information__description__list__inner:before {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 30px;
+  background: url("../img/check.svg");
+  position: absolute;
+  left: -40px;
+}
+
+/* line 322, ../work/EMET/scss/style.scss */
+.information__img {
+  width: 471px;
+  background: url("../img/robot.jpg") no-repeat -420px top;
+  background-size: cover;
+}
+
+/* line 329, ../work/EMET/scss/style.scss */
+.audio {
+  background: #212121;
+  font-family: 'Gilroy';
+}
+
+/* line 333, ../work/EMET/scss/style.scss */
+.audio__container {
+  max-width: 1256px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+/* line 339, ../work/EMET/scss/style.scss */
+.audio__subtitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #6C6C6C;
+}
+
+/* line 346, ../work/EMET/scss/style.scss */
+.audio__title {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+/* line 352, ../work/EMET/scss/style.scss */
+.audio__title__blue {
+  color: #5A31F5;
+}
+
+/* line 355, ../work/EMET/scss/style.scss */
+.audio__title__blue__light {
+  color: #77C8D0;
+}
+
+/* line 361, ../work/EMET/scss/style.scss */
+.audio__play {
+  display: block;
+  width: 100%;
+  background: #6C6C6C;
+}
+
+/* line 367, ../work/EMET/scss/style.scss */
+.audio__track {
+  background: #6C6C6C;
+  padding: 5px 15px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* line 374, ../work/EMET/scss/style.scss */
+.audio__track__play, .audio__track__past, .audio__track__next, .audio__track__muted, .audio__track__airplay {
+  background: none;
+  border: none;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* line 387, ../work/EMET/scss/style.scss */
+.audio__track__play img, .audio__track__past img, .audio__track__next img, .audio__track__muted img, .audio__track__airplay img {
+  width: 100%;
+}
+
+/* line 392, ../work/EMET/scss/style.scss */
+.audio__track__line {
+  width: 100%;
+  margin-right: 10px;
+}
+
+/* line 396, ../work/EMET/scss/style.scss */
+.audio__track__line__inner {
+  width: 100%;
+}
+
+/* line 401, ../work/EMET/scss/style.scss */
+.audio__track__currentTime, .audio__track__remainder {
+  margin-right: 10px;
+}
+
+/* line 408, ../work/EMET/scss/style.scss */
+.application {
+  font-family: 'Gilroy';
+  margin: 100px 0;
+}
+
+/* line 411, ../work/EMET/scss/style.scss */
+.application__container {
+  margin: 0 auto;
+}
+
+/* line 414, ../work/EMET/scss/style.scss */
+.application__subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #373737;
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+/* line 422, ../work/EMET/scss/style.scss */
+.application__subtitle::after {
+  content: '';
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #77C8D0;
+  margin-top: 5px;
+}
+
+/* line 432, ../work/EMET/scss/style.scss */
+.application__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #373737;
+}
+
+/* line 437, ../work/EMET/scss/style.scss */
+.application__title__purple {
+  color: #5A31F5;
+}
+
+/* line 440, ../work/EMET/scss/style.scss */
+.application__title__turquoise {
+  color: #77C8D0;
+}
+
+/* line 444, ../work/EMET/scss/style.scss */
+.application__list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/* line 448, ../work/EMET/scss/style.scss */
+.application__list__inner {
+  width: 23%;
+  margin-right: 55px;
+}
+
+/* line 451, ../work/EMET/scss/style.scss */
+.application__list__inner:last-child {
+  margin-right: 0;
+}
+
+/* line 454, ../work/EMET/scss/style.scss */
+.application__list__inner:nth-child(3) {
+  margin-right: 0;
+}
+
+/* line 457, ../work/EMET/scss/style.scss */
+.application__list__inner__icon {
+  background: linear-gradient(137.36deg, #5A31F5 -12.78%, #5A31F5 105.71%);
+  border-radius: 7px;
+  width: 44px;
+  height: 24px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* line 465, ../work/EMET/scss/style.scss */
+.application__list__inner__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #373737;
+}
+
+/* line 472, ../work/EMET/scss/style.scss */
+.application__list__inner__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #373737;
+}
+
+/* line 482, ../work/EMET/scss/style.scss */
+.benefits {
+  background: #212121;
+  font-family: 'Gilroy';
+  padding: 100px 0;
+}
+
+/* line 486, ../work/EMET/scss/style.scss */
+.benefits__container {
+  max-width: 1384px;
+  margin: 0 auto;
+}
+
+/* line 490, ../work/EMET/scss/style.scss */
+.benefits__subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+/* line 498, ../work/EMET/scss/style.scss */
+.benefits__subtitle::after {
+  content: '';
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #77C8D0;
+  margin-top: 5px;
+}
+
+/* line 508, ../work/EMET/scss/style.scss */
+.benefits__information {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* line 512, ../work/EMET/scss/style.scss */
+.benefits__information__block {
+  width: 255px;
+  height: 255px;
+  position: relative;
+  margin-right: 80px;
+  margin-bottom: 80px;
+}
+
+/* line 518, ../work/EMET/scss/style.scss */
+.benefits__information__block__title {
+  width: 235px;
+  height: 235px;
+  background: #77C8D0;
+  border-radius: 7px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 0 32px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 535, ../work/EMET/scss/style.scss */
+.benefits__information__block__title:nth-child(3), .benefits__information__block__title:last-child {
+  margin-right: 0;
+}
+
+/* line 539, ../work/EMET/scss/style.scss */
+.benefits__information__block__title:hover {
+  z-index: 0;
+}
+
+/* line 543, ../work/EMET/scss/style.scss */
+.benefits__information__block__description {
+  width: 235px;
+  height: 235px;
+  background: linear-gradient(135.57deg, #565DA6, #77C8D0 98.08%);
+  border-radius: 7px;
+  padding: 1px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+/* line 552, ../work/EMET/scss/style.scss */
+.benefits__information__block__description:hover {
+  z-index: 1;
+}
+
+/* line 555, ../work/EMET/scss/style.scss */
+.benefits__information__block__description__inner {
+  background: #212121;
+  height: 100%;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: lowercase;
+  color: #FFFFFF;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 7px;
+}
+
+/* line 573, ../work/EMET/scss/style.scss */
+.problem {
+  font-family: 'Gilroy';
+  padding: 100px 0;
+}
+
+/* line 576, ../work/EMET/scss/style.scss */
+.problem__subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #373737;
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+/* line 584, ../work/EMET/scss/style.scss */
+.problem__subtitle::after {
+  content: '';
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #77C8D0;
+  margin-top: 5px;
+}
+
+/* line 594, ../work/EMET/scss/style.scss */
+.problem__information {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 163px;
+}
+
+/* line 599, ../work/EMET/scss/style.scss */
+.problem__information__block {
+  width: calc(33% - 10px);
+  background: linear-gradient(137.12deg, rgba(90, 49, 245, 0.05) -60.55%, rgba(119, 200, 208, 0.05) 98.08%);
+  border-radius: 7px;
+  padding: 0 42px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+/* line 606, ../work/EMET/scss/style.scss */
+.problem__information__block:hover .problem__information__block__title {
+  color: #5A31F5;
+}
+
+/* line 609, ../work/EMET/scss/style.scss */
+.problem__information__block__title {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #77C8D0;
+  padding: 22px 0;
+  border: 1px solid #FFFFFF;
+}
+
+/* line 617, ../work/EMET/scss/style.scss */
+.problem__information__block__description {
+  padding: 76px 0;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: lowercase;
+  color: #373737;
+}
+
+/* line 627, ../work/EMET/scss/style.scss */
+.problem .benefits__information {
+  justify-content: space-between;
+}
+
+/* line 630, ../work/EMET/scss/style.scss */
+.problem .benefits__information__block:last-child {
+  margin-right: 0;
+}
+
+/* line 633, ../work/EMET/scss/style.scss */
+.problem .benefits__information__block:first-child {
+  word-break: break-all;
+}
+
+/* line 636, ../work/EMET/scss/style.scss */
+.problem .benefits__information__block__title {
+  background: #5A31F5;
+  justify-content: center;
+}
+
+/* line 641, ../work/EMET/scss/style.scss */
+.problem .benefits__information__block__description__inner {
+  background: #FFFFFF;
+  color: #373737;
+}
+
+/* line 650, ../work/EMET/scss/style.scss */
+.service {
+  background: #212121;
+  padding: 100px 0;
+  font-family: 'Gilroy';
+}
+
+/* line 654, ../work/EMET/scss/style.scss */
+.service__link {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 657, ../work/EMET/scss/style.scss */
+.service__link__inner {
+  width: 223px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 13px 0;
+  background: #77C8D0;
+  border: 1px solid #77C8D0;
+  border-radius: 20.5px;
+  margin-right: 100px;
+}
+
+/* line 670, ../work/EMET/scss/style.scss */
+.service__link__inner:last-child {
+  margin-right: 0;
+  background: none;
+}
+
+/* line 678, ../work/EMET/scss/style.scss */
+.form {
+  font-family: 'Gilroy';
+  margin: 100px 0;
+}
+
+/* line 681, ../work/EMET/scss/style.scss */
+.form__title {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 116px;
+  color: #373737;
+  width: calc(50% - 30px);
+}
+
+/* line 689, ../work/EMET/scss/style.scss */
+.form__information .flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 693, ../work/EMET/scss/style.scss */
+.form__information__block {
+  width: calc(50% - 30px);
+}
+
+/* line 696, ../work/EMET/scss/style.scss */
+.form__information__inner {
+  margin-bottom: 40px;
+}
+
+/* line 698, ../work/EMET/scss/style.scss */
+.form__information__inner:last-child {
+  margin-bottom: 0;
+}
+
+/* line 701, ../work/EMET/scss/style.scss */
+.form__information__inner__description {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #373737;
+}
+
+/* line 707, ../work/EMET/scss/style.scss */
+.form__information__inner .input {
+  display: block;
+  height: 44px;
+  background: linear-gradient(135.57deg, #565DA6, #77C8D0);
+  border-radius: 7px;
+  position: relative;
+  padding: 1px;
+  margin-top: 20px;
+}
+
+/* line 715, ../work/EMET/scss/style.scss */
+.form__information__inner .input__textarea {
+  height: 88px;
+}
+
+/* line 719, ../work/EMET/scss/style.scss */
+.form__information__inner__line {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 7px;
+}
+
+/* line 727, ../work/EMET/scss/style.scss */
+.form__information__submit {
+  width: 223px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #5A31F5;
+  border: 1px solid #5A31F5;
+  border-radius: 20.5px;
+  padding: 13px 0;
+  cursor: pointer;
+}
+
+/* line 746, ../work/EMET/scss/style.scss */
+.footer {
+  background: #212121;
+  padding: 83px 0;
+}
+
+@media only screen and (max-width: 1384px) {
+  /* line 752, ../work/EMET/scss/style.scss */
+  .container {
+    padding: 10px 15px;
+  }
+  /* line 754, ../work/EMET/scss/style.scss */
+  .container__main {
+    padding: 10px 15px;
+  }
+  /* line 758, ../work/EMET/scss/style.scss */
+  .header__bottom__container {
+    padding: 111px 10px 193px 10px;
+  }
+  /* line 761, ../work/EMET/scss/style.scss */
+  .audio__container {
+    padding: 100px 10px;
+  }
+}
+
+/* line 765, ../work/EMET/scss/style.scss */
+.burger-menu {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* line 769, ../work/EMET/scss/style.scss */
+  .burger-menu {
+    display: block;
+  }
+  /* line 772, ../work/EMET/scss/style.scss */
+  .information__img {
+    display: none;
+  }
+  /* line 775, ../work/EMET/scss/style.scss */
+  .information__description {
+    margin-right: 0;
+    width: 100%;
+  }
+  /* line 779, ../work/EMET/scss/style.scss */
+  .benefits__information__block {
+    margin: 0;
+  }
+  /* line 782, ../work/EMET/scss/style.scss */
+  #menu-toggle {
+    position: relative;
+    z-index: 2;
+  }
+  /* line 786, ../work/EMET/scss/style.scss */
+  .header__top__navigation {
+    display: none;
+  }
+  /* line 788, ../work/EMET/scss/style.scss */
+  .header__top__navigation__mob {
+    visibility: hidden;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    width: 300px;
+    padding: 25px 15px;
+    background: linear-gradient(61.54deg, #5A31F5 -2.93%, #77C8D0 121.7%);
+    z-index: 1;
+    transition-duration: .25s;
+  }
+  /* line 800, ../work/EMET/scss/style.scss */
+  .header__top__navigation__mob__inner__link {
+    display: block;
+    margin-bottom: 45px;
+    color: #fff;
+  }
+  /* line 804, ../work/EMET/scss/style.scss */
+  .header__top__navigation__mob__inner__link:last-child {
+    color: #14005e;
+  }
+  /* line 811, ../work/EMET/scss/style.scss */
+  .menu-btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  /* line 823, ../work/EMET/scss/style.scss */
+  .menu-btn > span,
+  .menu-btn > span::before,
+  .menu-btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    transition-duration: .25s;
+  }
+  /* line 833, ../work/EMET/scss/style.scss */
+  .menu-btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  /* line 837, ../work/EMET/scss/style.scss */
+  .menu-btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  /* line 841, ../work/EMET/scss/style.scss */
+  #menu-toggle {
+    opacity: 0;
+  }
+  /* line 844, ../work/EMET/scss/style.scss */
+  #menu-toggle:checked ~ .menu-btn > span {
+    transform: rotate(45deg);
+  }
+  /* line 847, ../work/EMET/scss/style.scss */
+  #menu-toggle:checked ~ .menu-btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  /* line 851, ../work/EMET/scss/style.scss */
+  #menu-toggle:checked ~ .menu-btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  /* line 855, ../work/EMET/scss/style.scss */
+  #menu-toggle:checked ~ .header__top__navigation__mob {
+    visibility: visible;
+    right: 0;
+  }
+  /* line 859, ../work/EMET/scss/style.scss */
+  .form__information .flex {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 863, ../work/EMET/scss/style.scss */
+  .form__title,
+  .form__information__block {
+    width: 100%;
+  }
+  /* line 867, ../work/EMET/scss/style.scss */
+  .form__information__submit {
+    margin-top: 25px;
+  }
+  /* line 870, ../work/EMET/scss/style.scss */
+  .information__description__list {
+    margin-left: 100px;
+  }
+  /* line 873, ../work/EMET/scss/style.scss */
+  .application__list {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 878, ../work/EMET/scss/style.scss */
+  .application__list__inner {
+    width: 49%;
+    margin-right: 0;
+  }
+  /* line 882, ../work/EMET/scss/style.scss */
+  .problem .benefits__information {
+    justify-content: space-around;
+  }
+  /* line 885, ../work/EMET/scss/style.scss */
+  .problem__information__block {
+    width: calc(50% - 10px);
+  }
+  /* line 888, ../work/EMET/scss/style.scss */
+  .problem__information {
+    margin-bottom: 40px;
+  }
+  /* line 891, ../work/EMET/scss/style.scss */
+  .form__title {
+    font-size: 55px;
+    line-height: 65px;
+  }
+  /* line 895, ../work/EMET/scss/style.scss */
+  .problem__information__block:last-child,
+  .application__subtitle {
+    margin-bottom: 0;
+  }
+  /* line 899, ../work/EMET/scss/style.scss */
+  .problem,
+  .benefits {
+    padding: 40px 0;
+  }
+  /* line 903, ../work/EMET/scss/style.scss */
+  .application {
+    margin: 40px 0;
+  }
+  /* line 906, ../work/EMET/scss/style.scss */
+  .benefits__subtitle,
+  .problem__subtitle,
+  .information__description__ask {
+    margin-bottom: 30px;
+  }
+  /* line 911, ../work/EMET/scss/style.scss */
+  .header__bottom__container {
+    padding: 60px 10px 100px 10px;
+  }
+  /* line 914, ../work/EMET/scss/style.scss */
+  .header__bottom__title {
+    font-size: 34px;
+  }
+  /* line 917, ../work/EMET/scss/style.scss */
+  .header__bottom__subtitle,
+  .application__subtitle,
+  .benefits__subtitle,
+  .problem__subtitle,
+  .information__description__ask {
+    font-size: 18px;
+  }
+  /* line 924, ../work/EMET/scss/style.scss */
+  .header__bottom__absolute__top,
+  .header__bottom__absolute__center,
+  .header__bottom__absolute__bottom {
+    font-size: 26px;
+  }
+  /* line 929, ../work/EMET/scss/style.scss */
+  .information__description__title {
+    margin-left: 25px;
+    font-size: 42px;
+    line-height: 54px;
+    margin-bottom: 40px;
+  }
+  /* line 935, ../work/EMET/scss/style.scss */
+  .information__description__list {
+    margin-left: 75px;
+  }
+  /* line 938, ../work/EMET/scss/style.scss */
+  .audio__title {
+    font-size: 42px;
+  }
+}
+
+@media only screen and (max-width: 578px) {
+  /* line 943, ../work/EMET/scss/style.scss */
+  .application__list__inner {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  /* line 947, ../work/EMET/scss/style.scss */
+  .benefits__information__block__title,
+  .benefits__information__block__description {
+    width: 200px;
+    height: 200px;
+    font-size: 18px;
+  }
+  /* line 953, ../work/EMET/scss/style.scss */
+  .benefits__information__block__description {
+    font-size: 14px;
+  }
+  /* line 956, ../work/EMET/scss/style.scss */
+  .problem__information__block {
+    width: 100%;
+  }
+  /* line 959, ../work/EMET/scss/style.scss */
+  .benefits__information__block {
+    width: 223px;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  /* line 964, ../work/EMET/scss/style.scss */
+  .information__description__title,
+  .audio__title,
+  .application__title {
+    margin-left: 0;
+    font-size: 28px;
+    line-height: 35px;
+  }
+  /* line 971, ../work/EMET/scss/style.scss */
+  .information__description__list__inner {
+    padding-left: 20px;
+  }
+  /* line 974, ../work/EMET/scss/style.scss */
+  .information__description__list {
+    margin-left: 40px;
+  }
+  /* line 977, ../work/EMET/scss/style.scss */
+  .service__link__inner {
+    margin-right: 10px;
+  }
+  /* line 980, ../work/EMET/scss/style.scss */
+  .form {
+    margin: 40px 0;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  /* line 985, ../work/EMET/scss/style.scss */
+  .information__description__title,
+  .audio__title,
+  .application__title {
+    font-size: 24px;
+  }
+  /* line 990, ../work/EMET/scss/style.scss */
+  .header__bottom__title {
+    font-size: 28px;
+  }
+  /* line 993, ../work/EMET/scss/style.scss */
+  .information__description__list__inner {
+    font-size: 14px;
+  }
+  /* line 996, ../work/EMET/scss/style.scss */
+  .form__title {
+    font-size: 38px;
+    line-height: 50px;
+  }
+  /* line 1000, ../work/EMET/scss/style.scss */
+  .form__information__block {
+    margin-top: 20px;
+  }
+  /* line 1003, ../work/EMET/scss/style.scss */
+  .form__information__inner .input {
+    margin-top: 5px;
+  }
+  /* line 1006, ../work/EMET/scss/style.scss */
+  .form__information__inner__description {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
