@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+#saved__tasks {
+    max-width: 20%;
+    padding: 0;
+}
+#task {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    list-style: none;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    background: rgba(154, 197, 137, 0.712);
+}
+#inner__text {
+    overflow: hidden;
+    grid-column-start: 2;
+}
+#checkbox {
+    position: absolute;
+    top: -3px;
+    grid-column-start: 1;
+    width: 20px;
+    height: 20px;
+    opacity: 0.9;
+}
+#delete__task {
+    grid-column-start: 3;
+    width: 19px;
+    height: 19px;
+    margin-left: 20px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.712);
+    border: 1px solid #666;
+    border-radius: 3px;
+}
+#delete__task:focus {
+    outline: 1px solid #666;
+}
