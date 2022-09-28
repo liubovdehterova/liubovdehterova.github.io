@@ -1,0 +1,42 @@
+.win__block {
+    height: 300px;
+    width: 60%;
+    background: rgba(0, 128, 0, 0.8);
+    position: absolute;
+    left: 20%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+}
+
+
+.win__block__text {
+    color: white;
+    font-size: 25px;
+}
+
+.new__game {
+    position: relative;
+    top: 20%;
+    padding: 10px;
+    border: 1px solid rgb(48, 83, 48);
+    background-color: rgb(133, 209, 133);
+    color: rgb(12, 66, 24);
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.win__block__drow {
+    background: rgba(0, 98, 128, 0.8);
+}
+
+.row {
+    background-color: rgba(0, 0, 0, 1);
+}
