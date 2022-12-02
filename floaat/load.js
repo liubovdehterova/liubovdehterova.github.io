@@ -22,7 +22,7 @@ function loadData() {
 
 
 
-window.addEventListener('load', () => {
+window.addEventListener('DOMContentLoaded', () => {
     setInterval(() => {
         loadData();
     }, 100);
