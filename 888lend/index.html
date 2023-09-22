@@ -201,7 +201,7 @@
         const instructionList = document.querySelector('.instruction__list');
         const dots = document.querySelectorAll('.dot');
         let currentIndex = 0;
-        let touchStartX = 0;
+        let touchStartX = null;
 
         function showSlide(index) {
             if (index < 0) {
@@ -229,6 +229,33 @@
             });
         });
 
+        function handleTouchStart(event) {
+            touchStartX = event.touches[0].clientX;
+        }
+
+        function handleTouchMove(event) {
+            if (touchStartX !== null) {
+                const touchEndX = event.touches[0].clientX;
+                const deltaX = touchEndX - touchStartX;
+
+                if (deltaX > 40) {
+                    prevSlide();
+                    touchStartX = null;
+                } else if (deltaX < -40) {
+                    nextSlide();
+                    touchStartX = null;
+                }
+            }
+        }
+
+        function handleTouchEnd() {
+            touchStartX = null;
+        }
+
+        instructionList.addEventListener('touchstart', handleTouchStart);
+        instructionList.addEventListener('touchmove', handleTouchMove);
+        instructionList.addEventListener('touchend', handleTouchEnd);
+
         function nextSlide() {
             showSlide(currentIndex + 1);
         }
@@ -237,42 +264,10 @@
             showSlide(currentIndex - 1);
         }
 
-        let isTransitioning = false;
-
-        function handleTouchStart(event) {
-            if (!isTransitioning) {
-                touchStartX = event.touches[0].clientX;
-            }
-        }
-        
-        function handleTouchMove(event) {
-            if (!isTransitioning) {
-                const touchEndX = event.touches[0].clientX;
-                const deltaX = touchEndX - touchStartX;
-        
-                if (deltaX > 50) {
-                    prevSlide();
-                    isTransitioning = true;
-                } else if (deltaX < -50) {
-                    nextSlide();
-                    isTransitioning = true;
-                }
-        
-                touchStartX = touchEndX; // Оновлення початкової точки
-            }
-        }
-        
-        function handleTouchEnd() {
-            isTransitioning = false;
-            touchStartX = 0;
-        }
-
-        instructionList.addEventListener('touchstart', handleTouchStart);
-        instructionList.addEventListener('touchmove', handleTouchMove);
-        instructionList.addEventListener('touchend', handleTouchEnd);
-
         showSlide(currentIndex);
     });
+
+
 
 </script>
 </body>
