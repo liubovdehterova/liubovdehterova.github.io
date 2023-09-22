@@ -237,16 +237,33 @@
             showSlide(currentIndex - 1);
         }
 
+        let isTransitioning = false;
+
         function handleTouchStart(event) {
-            touchStartX = event.touches[0].clientX;
+            if (!isTransitioning) {
+                touchStartX = event.touches[0].clientX;
+            }
         }
-
+        
         function handleTouchMove(event) {
-            const touchEndX = event.touches[0].clientX;
-            const deltaX = touchEndX - touchStartX;
+            if (!isTransitioning) {
+                const touchEndX = event.touches[0].clientX;
+                const deltaX = touchEndX - touchStartX;
+        
+                if (deltaX > 50) {
+                    prevSlide();
+                    isTransitioning = true;
+                } else if (deltaX < -50) {
+                    nextSlide();
+                    isTransitioning = true;
+                }
+        
+                touchStartX = touchEndX; // Оновлення початкової точки
+            }
         }
-
+        
         function handleTouchEnd() {
+            isTransitioning = false;
             touchStartX = 0;
         }
 
