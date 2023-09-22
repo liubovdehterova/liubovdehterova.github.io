@@ -244,12 +244,6 @@
         function handleTouchMove(event) {
             const touchEndX = event.touches[0].clientX;
             const deltaX = touchEndX - touchStartX;
-
-            if (deltaX > 20) {
-                prevSlide();
-            } else if (deltaX < -20) {
-                nextSlide();
-            }
         }
 
         function handleTouchEnd() {
