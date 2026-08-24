@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Factor Pro — Робота в Греції</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header__inner">
+            <a href="#" class="logo">
+                <span class="logo__text">HUMAN<br>FACTOR PRO</span>
+            </a>
+
+            <nav class="nav" id="nav">
+                <ul class="nav__list">
+                    <li><a href="#hero" class="nav__link nav__link--active">ГОЛОВНА</a></li>
+                    <li><a href="#about" class="nav__link">ПРО НАС</a></li>
+                    <li><a href="#vacancies" class="nav__link">ВАКАНСІЇ</a></li>
+                    <li><a href="#projects" class="nav__link">НАШІ ОБ'ЄКТИ</a></li>
+                    <li><a href="#contacts" class="nav__link">КОНТАКТИ</a></li>
+                </ul>
+            </nav>
+
+            <button type="button" class="btn btn--outline btn--sm header__cta" data-open-modal>ЗАЛИШИТИ ЗАЯВКУ</button>
+
+            <button class="burger" id="burger" aria-label="Відкрити меню" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero" id="hero">
+            <div class="hero__bg">
+                <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=80" alt="" class="hero__bg-img">
+                <div class="hero__overlay"></div>
+            </div>
+            <div class="container hero__inner">
+                <div class="hero__content">
+                    <p class="hero__label anim-in">МИ ДОПОМОЖЕМО ЗНАЙТИ</p>
+                    <h1 class="hero__title anim-in anim-in--delay-1">РОБОТУ В ГРЕЦІЇ</h1>
+                    <p class="hero__subtitle anim-in anim-in--delay-2">Надійна робота. Офіційне працевлаштування. Проживання на повному етапі.</p>
+                    <div class="hero__actions anim-in anim-in--delay-3">
+                        <a href="#vacancies" class="btn btn--primary">ПЕРЕГЛЯНУТИ ВАКАНСІЇ</a>
+                        <button type="button" class="btn btn--ghost" data-open-modal>НАДІСЛАТИ РЕЗЮМЕ</button>
+                    </div>
+                    <ul class="hero__features anim-in anim-in--delay-4">
+                        <li class="hero__feature">
+                            <span class="hero__feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                            </span>
+                            <span>Безкоштовні послуги</span>
+                        </li>
+                        <li class="hero__feature">
+                            <span class="hero__feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                            </span>
+                            <span>Швидке працевлаштування</span>
+                        </li>
+                        <li class="hero__feature">
+                            <span class="hero__feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            </span>
+                            <span>Підтримка на кожному етапі</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hero__badge">
+                    <span>БУДУЙ СВОЄ<br>МАЙБУТНЄ<br>З НАМИ!</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about section" id="about">
+            <div class="container">
+                <p class="section__label">ПРО НАС</p>
+                <h2 class="section__title">HUMAN FACTOR PRO</h2>
+                <div class="about__grid">
+                    <div class="about__text reveal">
+                        <p>Human Factor Pro — це надійне кадрове агентство, яке допомагає українцям знайти офіційну роботу в Греції. Ми працюємо з провідними роботодавцями та забезпечуємо повний супровід від подачі заявки до виходу на робоче місце.</p>
+                        <p>Наша команда має багаторічний досвід у сфері міжнародного працевлаштування та розуміє всі нюанси переїзду та адаптації за кордоном.</p>
+                    </div>
+                    <div class="about__cards">
+                        <div class="about__card reveal">
+                            <span class="about__card-num">01</span>
+                            <h3>Досвід</h3>
+                            <p>Багаторічна практика працевлаштування в Греції</p>
+                        </div>
+                        <div class="about__card reveal">
+                            <span class="about__card-num">02</span>
+                            <h3>Підтримка</h3>
+                            <p>Супровід на всіх етапах — від заявки до роботи</p>
+                        </div>
+                        <div class="about__card reveal">
+                            <span class="about__card-num">03</span>
+                            <h3>Відповідальність</h3>
+                            <p>Офіційне оформлення та прозорі умови</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories -->
+        <section class="categories section">
+            <div class="container">
+                <h2 class="section__title section__title--center">ЗНАЙДІТЬ СВІЙ НАПРЯМОК</h2>
+                <div class="categories__grid">
+                    <article class="category-card reveal">
+                        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&q=80" alt="Готелі та сервіс">
+                        <div class="category-card__overlay"></div>
+                        <div class="category-card__content">
+                            <h3>ГОТЕЛІ / СЕРВІС</h3>
+                            <a href="#vacancies" class="category-card__link">ДИВИТИСЬ ВАКАНСІЇ →</a>
+                        </div>
+                    </article>
+                    <article class="category-card reveal">
+                        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80" alt="Будівництво">
+                        <div class="category-card__overlay"></div>
+                        <div class="category-card__content">
+                            <h3>БУДІВНИЦТВО / МОНТАЖ</h3>
+                            <a href="#vacancies" class="category-card__link">ДИВИТИСЬ ВАКАНСІЇ →</a>
+                        </div>
+                    </article>
+                    <article class="category-card reveal">
+                        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80" alt="Промисловість">
+                        <div class="category-card__overlay"></div>
+                        <div class="category-card__content">
+                            <h3>ПРОМИСЛОВІСТЬ</h3>
+                            <a href="#vacancies" class="category-card__link">ДИВИТИСЬ ВАКАНСІЇ →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vacancies -->
+        <section class="vacancies section" id="vacancies">
+            <div class="container">
+                <h2 class="section__title section__title--center">ПОЗНАЙОМТЕСЯ З МОЖЛИВОСТЯМИ</h2>
+                <div class="vacancies__grid">
+                    <article class="vacancy-card reveal" data-vacancy="Покоївка" role="button" tabindex="0">
+                        <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&q=80" alt="Покоївка" class="vacancy-card__img">
+                        <div class="vacancy-card__body">
+                            <h3>ПОКІЇВКА</h3>
+                            <ul class="vacancy-card__list">
+                                <li>Безкоштовне житло</li>
+                                <li>Гарна оплата</li>
+                                <li>Офіційне оформлення</li>
+                            </ul>
+                            <span class="vacancy-card__cta">Відгукнутися</span>
+                        </div>
+                    </article>
+                    <article class="vacancy-card reveal" data-vacancy="Бармен" role="button" tabindex="0">
+                        <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&q=80" alt="Бармен" class="vacancy-card__img">
+                        <div class="vacancy-card__body">
+                            <h3>БАРМЕН</h3>
+                            <ul class="vacancy-card__list">
+                                <li>Чайові + зарплата</li>
+                                <li>Житло надається</li>
+                                <li>Навчання на місці</li>
+                            </ul>
+                            <span class="vacancy-card__cta">Відгукнутися</span>
+                        </div>
+                    </article>
+                    <article class="vacancy-card reveal" data-vacancy="Будівельник" role="button" tabindex="0">
+                        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&q=80" alt="Будівельник" class="vacancy-card__img">
+                        <div class="vacancy-card__body">
+                            <h3>БУДІВЕЛЬНИК</h3>
+                            <ul class="vacancy-card__list">
+                                <li>Висока зарплата</li>
+                                <li>Житло + транспорт</li>
+                                <li>Довгостроковий контракт</li>
+                            </ul>
+                            <span class="vacancy-card__cta">Відгукнутися</span>
+                        </div>
+                    </article>
+                    <article class="vacancy-card reveal" data-vacancy="Зварювальник" role="button" tabindex="0">
+                        <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=400&q=80" alt="Зварювальник" class="vacancy-card__img">
+                        <div class="vacancy-card__body">
+                            <h3>ЗВАРЮВАЛЬНИК</h3>
+                            <ul class="vacancy-card__list">
+                                <li>Преміальна оплата</li>
+                                <li>Повний пакет документів</li>
+                                <li>Безпечні умови праці</li>
+                            </ul>
+                            <span class="vacancy-card__cta">Відгукнутися</span>
+                        </div>
+                    </article>
+                    <article class="vacancy-card reveal" data-vacancy="Офіціант" role="button" tabindex="0">
+                        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=400&q=80" alt="Офіціант" class="vacancy-card__img">
+                        <div class="vacancy-card__body">
+                            <h3>ОФІЦІАНТ</h3>
+                            <ul class="vacancy-card__list">
+                                <li>Готельні комплекси</li>
+                                <li>Харчування включено</li>
+                                <li>Гнучкий графік</li>
+                            </ul>
+                            <span class="vacancy-card__cta">Відгукнутися</span>
+                        </div>
+                    </article>
+                    <article class="vacancy-card reveal" data-vacancy="Електрик" role="button" tabindex="0">
+                        <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=400&q=80" alt="Електрик" class="vacancy-card__img">
+                        <div class="vacancy-card__body">
+                            <h3>ЕЛЕКТРИК</h3>
+                            <ul class="vacancy-card__list">
+                                <li>Великі об'єкти</li>
+                                <li>Стабільна робота</li>
+                                <li>Кар'єрний ріст</li>
+                            </ul>
+                            <span class="vacancy-card__cta">Відгукнутися</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Us -->
+        <section class="why section" id="why">
+            <div class="container">
+                <h2 class="section__title section__title--center">ЧОМУ ОБИРАЮТЬ НАС?</h2>
+                <div class="why__grid">
+                    <div class="why__card reveal">
+                        <div class="why__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                        </div>
+                        <h3>Безкоштовний сервіс</h3>
+                        <p>Жодних прихованих платежів — усі послуги для кандидатів безкоштовні</p>
+                    </div>
+                    <div class="why__card reveal">
+                        <div class="why__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        </div>
+                        <h3>Швидке працевлаштування</h3>
+                        <p>Від заявки до виходу на роботу — мінімум бюрократії та максимум швидкості</p>
+                    </div>
+                    <div class="why__card reveal">
+                        <div class="why__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                        </div>
+                        <h3>Житло</h3>
+                        <p>Більшість вакансій включають безкоштовне або субсидоване проживання</p>
+                    </div>
+                    <div class="why__card reveal">
+                        <div class="why__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+                        </div>
+                        <h3>Транспорт</h3>
+                        <p>Допомагаємо з організацією переїзду та транспортом до робочого місця</p>
+                    </div>
+                    <div class="why__card reveal">
+                        <div class="why__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        </div>
+                        <h3>Підтримка 24/7</h3>
+                        <p>Наші менеджери завжди на зв'язку та готові допомогти у будь-якій ситуації</p>
+                    </div>
+                    <div class="why__card reveal">
+                        <div class="why__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+                        </div>
+                        <h3>Професійний ріст</h3>
+                        <p>Можливості для розвитку навичок та кар'єрного зростання на новому місці</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Steps -->
+        <section class="steps section">
+            <div class="container">
+                <h2 class="section__title section__title--center">4 ПРОСТІ КРОКИ ДО НОВОЇ РОБОТИ</h2>
+                <div class="steps__timeline">
+                    <div class="steps__item reveal">
+                        <span class="steps__num">01</span>
+                        <h3>Надішліть заявку</h3>
+                        <p>Заповніть форму або надішліть резюме через Telegram</p>
+                    </div>
+                    <div class="steps__line"></div>
+                    <div class="steps__item reveal">
+                        <span class="steps__num">02</span>
+                        <h3>Підбір вакансії</h3>
+                        <p>Ми підберемо найкращу пропозицію під ваш досвід</p>
+                    </div>
+                    <div class="steps__line"></div>
+                    <div class="steps__item reveal">
+                        <span class="steps__num">03</span>
+                        <h3>Оформлення візи</h3>
+                        <p>Допоможемо з усіма документами та візовим процесом</p>
+                    </div>
+                    <div class="steps__line"></div>
+                    <div class="steps__item reveal">
+                        <span class="steps__num">04</span>
+                        <h3>Вихід на роботу</h3>
+                        <p>Переїзд до Греції та початок нової кар'єри</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="projects section" id="projects">
+            <div class="projects__bg">
+                <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&q=80" alt="" class="projects__bg-img">
+                <div class="projects__overlay"></div>
+            </div>
+            <div class="container projects__inner">
+                <div class="projects__card reveal">
+                    <h2>РОБОТА НА ВЕЛИКИХ ОБ'ЄКТАХ</h2>
+                    <p class="projects__subtitle">МИ ПРОПОНУЄМО</p>
+                    <ul class="projects__list">
+                        <li>Стабільну заробітну плату без затримок</li>
+                        <li>Офіційне працевлаштування за контрактом</li>
+                        <li>Безкоштовне житло на території об'єкта</li>
+                        <li>Харчування або компенсація</li>
+                        <li>Медичне страхування</li>
+                        <li>Можливість продовження контракту</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta section" id="apply">
+            <div class="container cta__inner">
+                <h2 class="cta__title reveal">ГОТОВІ ПОЧАТИ НОВУ РОБОТУ?</h2>
+                <div class="cta__actions reveal">
+                    <a href="https://t.me/" class="btn btn--dark" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                        TELEGRAM
+                    </a>
+                    <a href="tel:+380000000000" class="btn btn--dark">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        +38 (000) 000-00-00
+                    </a>
+                    <button type="button" class="btn btn--primary btn--lg" data-open-modal>НАДІСЛАТИ ЗАЯВКУ</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="contacts">
+        <div class="container footer__inner">
+            <div class="footer__col footer__brand">
+                <a href="#" class="logo logo--footer">
+                    <span class="logo__text">HUMAN<br>FACTOR PRO</span>
+                </a>
+                <p class="footer__desc">Надійне кадрове агентство для працевлаштування в Греції. Допомагаємо знайти роботу мрії.</p>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__heading">Навігація</h4>
+                <ul class="footer__links">
+                    <li><a href="#hero">Головна</a></li>
+                    <li><a href="#about">Про нас</a></li>
+                    <li><a href="#vacancies">Вакансії</a></li>
+                    <li><a href="#projects">Наші об'єкти</a></li>
+                    <li><a href="#contacts">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__heading">Контакти</h4>
+                <ul class="footer__contacts">
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        +38 (000) 000-00-00
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        info@humanfactorpro.gr
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        Афіни, Греція
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__heading">Соціальні мережі</h4>
+                <div class="footer__socials">
+                    <a href="#" aria-label="Facebook" class="footer__social">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                    </a>
+                    <a href="#" aria-label="Instagram" class="footer__social">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                    </a>
+                    <a href="#" aria-label="TikTok" class="footer__social">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 0 0-.79-.05A6.34 6.34 0 0 0 3.15 15.2a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.69a8.18 8.18 0 0 0 4.76 1.52V6.76a4.85 4.85 0 0 1-1-.07z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__palette">
+            <span style="background:#050d18"></span>
+            <span style="background:#0a1628"></span>
+            <span style="background:#00c4cc"></span>
+            <span style="background:#4dd9c0"></span>
+            <span style="background:#3a7bd5"></span>
+            <span style="background:#ffffff"></span>
+        </div>
+        <div class="footer__bottom">
+            <div class="container footer__bottom-inner">
+                <p>&copy; 2026 Human Factor Pro. Усі права захищені.</p>
+                <div class="footer__legal">
+                    <a href="#">Політика конфіденційності</a>
+                    <a href="#">Умови використання</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button type="button" class="back-to-top" id="back-to-top" aria-label="Нагору">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true">
+            <polyline points="18 15 12 9 6 15"/>
+        </svg>
+    </button>
+
+    <div class="modal" id="contact-modal" aria-hidden="true">
+        <div class="modal__overlay" data-close-modal></div>
+        <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <button type="button" class="modal__close" data-close-modal aria-label="Закрити">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22">
+                    <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+            <p class="modal__label">Зв’язок</p>
+            <h2 class="modal__title" id="modal-title">Заявка на вакансію</h2>
+            <p class="modal__vacancy" id="modal-vacancy">Оберіть зручний спосіб зв’язку — ми відповімо протягом дня.</p>
+            <form class="modal__form" id="contact-form">
+                <label class="modal__field">
+                    <span>Ім’я</span>
+                    <input type="text" name="name" required placeholder="Ваше ім’я" autocomplete="name">
+                </label>
+                <label class="modal__field">
+                    <span>Телефон</span>
+                    <input type="tel" name="phone" required placeholder="+38 (___) ___-__-__" autocomplete="tel">
+                </label>
+                <label class="modal__field">
+                    <span>Telegram / Viber</span>
+                    <input type="text" name="messenger" placeholder="@username або номер">
+                </label>
+                <label class="modal__field">
+                    <span>Коментар</span>
+                    <textarea name="message" rows="3" placeholder="Досвід, місто, коли готові виїхати"></textarea>
+                </label>
+                <button type="submit" class="btn btn--primary btn--lg modal__submit">НАДІСЛАТИ ЗАЯВКУ</button>
+            </form>
+            <div class="modal__success" id="modal-success" hidden>
+                <div class="modal__success-icon">✓</div>
+                <h3>Заявку надіслано</h3>
+                <p>Дякуємо! Менеджер зв’яжеться з вами найближчим часом.</p>
+            </div>
+            <div class="modal__contacts">
+                <a href="https://t.me/" target="_blank" rel="noopener">Telegram</a>
+                <a href="tel:+380000000000">Зателефонувати</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
